@@ -19,6 +19,9 @@ Each Entity can have 9 states (the marine green ones):
 - TAKING_OFF
 - LANDING
 
+
+	@GB: should the states from CONFIGURED be only available for the instances of the entities? In this case an entity is defined and then if is configured it becomes and entity instance, each entity can have multiple entity instances, this means a 1 to Many releation, so each entity instance should have is own UUID.
+
 Let's see in detail these states
 
 ### UNDEFINED
