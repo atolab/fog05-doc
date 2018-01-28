@@ -1,6 +1,6 @@
 #URI definition
 
-###### updated 02/01/2018
+###### updated 28/01/2018
 
 Because we want to share all possibile information through our distributed cache (K,V cache), URI are very important as they are the key for our cache.
 
@@ -131,6 +131,27 @@ So after this example we can try to define a more general URI scheme for FogOS
 > At node level is possible to monitor information about a node and manage is lifecycle, the same is possible at id_of_resource level and id_of_subresource level
 >
 > All values must be JSON objects
+
+---
+
+### Meta-resources
+It is possible to have meta-resource that represent the state of the store.
+These meta-resouces are identified because the uri will be have a trailing `!`
+At the moment we have defined:
+
+- keys!
+- discovered_store!
+
+These apply to an uri (also with wildcard) and provide information about keys under some uri, or discovered stores by a Node.
+
+examples:
+
+        <a|d>fos://<sys-id>/<node_id or *>/keys!  
+        
+        <a|d>fos://<sys-id>/<node_id or *>/discovered_stores! 
+        
+
+
 
 ---
 
