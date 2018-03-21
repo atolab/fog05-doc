@@ -1,0 +1,1264 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>fog05.interfaces package &#8212; fog05 0.1.3a1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1.3a1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="fog05-interfaces-package">
+<h1>fog05.interfaces package<a class="headerlink" href="#fog05-interfaces-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-fog05.interfaces.Agent">
+<span id="fog05-interfaces-agent-module"></span><h2>fog05.interfaces.Agent module<a class="headerlink" href="#module-fog05.interfaces.Agent" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="fog05.interfaces.Agent.Agent">
+<em class="property">class </em><code class="descclassname">fog05.interfaces.Agent.</code><code class="descname">Agent</code><span class="sig-paren">(</span><em>uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Agent.Agent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="fog05.interfaces.Agent.Agent.get_network_plugin">
+<code class="descname">get_network_plugin</code><span class="sig-paren">(</span><em>cnetwork_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Agent.Agent.get_network_plugin" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Agent.Agent.get_os_plugin">
+<code class="descname">get_os_plugin</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Agent.Agent.get_os_plugin" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Agent.Agent.get_runtime_plugin">
+<code class="descname">get_runtime_plugin</code><span class="sig-paren">(</span><em>runtime_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Agent.Agent.get_runtime_plugin" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Agent.Agent.list_network_plugins">
+<code class="descname">list_network_plugins</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Agent.Agent.list_network_plugins" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Agent.Agent.list_runtime_plugins">
+<code class="descname">list_runtime_plugins</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Agent.Agent.list_runtime_plugins" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Agent.Agent.refresh_plugins">
+<code class="descname">refresh_plugins</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Agent.Agent.refresh_plugins" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-fog05.interfaces.Entity">
+<span id="fog05-interfaces-entity-module"></span><h2>fog05.interfaces.Entity module<a class="headerlink" href="#module-fog05.interfaces.Entity" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="fog05.interfaces.Entity.Entity">
+<em class="property">class </em><code class="descclassname">fog05.interfaces.Entity.</code><code class="descname">Entity</code><a class="headerlink" href="#fog05.interfaces.Entity.Entity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="fog05.interfaces.Entity.Entity.add_instance">
+<code class="descname">add_instance</code><span class="sig-paren">(</span><em>instance_object</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Entity.Entity.add_instance" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Entity.Entity.after_migrate">
+<code class="descname">after_migrate</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Entity.Entity.after_migrate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Entity.Entity.before_migrate">
+<code class="descname">before_migrate</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Entity.Entity.before_migrate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Entity.Entity.get_instance">
+<code class="descname">get_instance</code><span class="sig-paren">(</span><em>instance_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Entity.Entity.get_instance" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Entity.Entity.get_state">
+<code class="descname">get_state</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Entity.Entity.get_state" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Entity.Entity.has_instance">
+<code class="descname">has_instance</code><span class="sig-paren">(</span><em>instance_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Entity.Entity.has_instance" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Entity.Entity.on_clean">
+<code class="descname">on_clean</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Entity.Entity.on_clean" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Entity.Entity.on_configured">
+<code class="descname">on_configured</code><span class="sig-paren">(</span><em>configuration</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Entity.Entity.on_configured" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Entity.Entity.on_defined">
+<code class="descname">on_defined</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Entity.Entity.on_defined" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Entity.Entity.on_pause">
+<code class="descname">on_pause</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Entity.Entity.on_pause" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Entity.Entity.on_resume">
+<code class="descname">on_resume</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Entity.Entity.on_resume" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Entity.Entity.on_start">
+<code class="descname">on_start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Entity.Entity.on_start" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Entity.Entity.on_stop">
+<code class="descname">on_stop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Entity.Entity.on_stop" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Entity.Entity.remove_instance">
+<code class="descname">remove_instance</code><span class="sig-paren">(</span><em>instance_object</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Entity.Entity.remove_instance" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Entity.Entity.set_state">
+<code class="descname">set_state</code><span class="sig-paren">(</span><em>state</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Entity.Entity.set_state" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-fog05.interfaces.EntityInstance">
+<span id="fog05-interfaces-entityinstance-module"></span><h2>fog05.interfaces.EntityInstance module<a class="headerlink" href="#module-fog05.interfaces.EntityInstance" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="fog05.interfaces.EntityInstance.EntityInstance">
+<em class="property">class </em><code class="descclassname">fog05.interfaces.EntityInstance.</code><code class="descname">EntityInstance</code><span class="sig-paren">(</span><em>uuid</em>, <em>entity_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.EntityInstance.EntityInstance" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="fog05.interfaces.EntityInstance.EntityInstance.after_migrate">
+<code class="descname">after_migrate</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.EntityInstance.EntityInstance.after_migrate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.EntityInstance.EntityInstance.before_migrate">
+<code class="descname">before_migrate</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.EntityInstance.EntityInstance.before_migrate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.EntityInstance.EntityInstance.get_state">
+<code class="descname">get_state</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.EntityInstance.EntityInstance.get_state" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.EntityInstance.EntityInstance.on_clean">
+<code class="descname">on_clean</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.EntityInstance.EntityInstance.on_clean" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.EntityInstance.EntityInstance.on_configured">
+<code class="descname">on_configured</code><span class="sig-paren">(</span><em>configuration</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.EntityInstance.EntityInstance.on_configured" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.EntityInstance.EntityInstance.on_pause">
+<code class="descname">on_pause</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.EntityInstance.EntityInstance.on_pause" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.EntityInstance.EntityInstance.on_resume">
+<code class="descname">on_resume</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.EntityInstance.EntityInstance.on_resume" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.EntityInstance.EntityInstance.on_start">
+<code class="descname">on_start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.EntityInstance.EntityInstance.on_start" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.EntityInstance.EntityInstance.on_stop">
+<code class="descname">on_stop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.EntityInstance.EntityInstance.on_stop" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.EntityInstance.EntityInstance.set_state">
+<code class="descname">set_state</code><span class="sig-paren">(</span><em>state</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.EntityInstance.EntityInstance.set_state" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-fog05.interfaces.MonitoringPlugin">
+<span id="fog05-interfaces-monitoringplugin-module"></span><h2>fog05.interfaces.MonitoringPlugin module<a class="headerlink" href="#module-fog05.interfaces.MonitoringPlugin" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="fog05.interfaces.MonitoringPlugin.MonitoringPlugin">
+<em class="property">class </em><code class="descclassname">fog05.interfaces.MonitoringPlugin.</code><code class="descname">MonitoringPlugin</code><span class="sig-paren">(</span><em>version</em>, <em>plugin_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.MonitoringPlugin.MonitoringPlugin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#fog05.interfaces.Plugin.Plugin" title="fog05.interfaces.Plugin.Plugin"><code class="xref py py-class docutils literal"><span class="pre">fog05.interfaces.Plugin.Plugin</span></code></a></p>
+<dl class="method">
+<dt id="fog05.interfaces.MonitoringPlugin.MonitoringPlugin.start_monitoring">
+<code class="descname">start_monitoring</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.MonitoringPlugin.MonitoringPlugin.start_monitoring" title="Permalink to this definition">¶</a></dt>
+<dd><p>start the runtime
+:return: runtime pid or runtime uuid?</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.MonitoringPlugin.MonitoringPlugin.stop_monitoring">
+<code class="descname">stop_monitoring</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.MonitoringPlugin.MonitoringPlugin.stop_monitoring" title="Permalink to this definition">¶</a></dt>
+<dd><p>stop this runtime</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-fog05.interfaces.NetworkPlugin">
+<span id="fog05-interfaces-networkplugin-module"></span><h2>fog05.interfaces.NetworkPlugin module<a class="headerlink" href="#module-fog05.interfaces.NetworkPlugin" title="Permalink to this headline">¶</a></h2>
+<dl class="exception">
+<dt id="fog05.interfaces.NetworkPlugin.BridgeAssociatedToNetworkException">
+<em class="property">exception </em><code class="descclassname">fog05.interfaces.NetworkPlugin.</code><code class="descname">BridgeAssociatedToNetworkException</code><span class="sig-paren">(</span><em>message</em>, <em>errors</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.BridgeAssociatedToNetworkException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<dl class="exception">
+<dt id="fog05.interfaces.NetworkPlugin.BridgeNotExistingException">
+<em class="property">exception </em><code class="descclassname">fog05.interfaces.NetworkPlugin.</code><code class="descname">BridgeNotExistingException</code><span class="sig-paren">(</span><em>message</em>, <em>errors</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.BridgeNotExistingException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<dl class="exception">
+<dt id="fog05.interfaces.NetworkPlugin.InterfaceNotExistingException">
+<em class="property">exception </em><code class="descclassname">fog05.interfaces.NetworkPlugin.</code><code class="descname">InterfaceNotExistingException</code><span class="sig-paren">(</span><em>message</em>, <em>errors</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.InterfaceNotExistingException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<dl class="exception">
+<dt id="fog05.interfaces.NetworkPlugin.InterfaceNotInNetworkException">
+<em class="property">exception </em><code class="descclassname">fog05.interfaces.NetworkPlugin.</code><code class="descname">InterfaceNotInNetworkException</code><span class="sig-paren">(</span><em>message</em>, <em>errors</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.InterfaceNotInNetworkException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<dl class="exception">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkAlreadyExistsException">
+<em class="property">exception </em><code class="descclassname">fog05.interfaces.NetworkPlugin.</code><code class="descname">NetworkAlreadyExistsException</code><span class="sig-paren">(</span><em>message</em>, <em>errors</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkAlreadyExistsException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<dl class="exception">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkHasPendingInterfacesException">
+<em class="property">exception </em><code class="descclassname">fog05.interfaces.NetworkPlugin.</code><code class="descname">NetworkHasPendingInterfacesException</code><span class="sig-paren">(</span><em>message</em>, <em>errors</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkHasPendingInterfacesException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkPlugin">
+<em class="property">class </em><code class="descclassname">fog05.interfaces.NetworkPlugin.</code><code class="descname">NetworkPlugin</code><span class="sig-paren">(</span><em>version</em>, <em>plugin_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkPlugin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#fog05.interfaces.Plugin.Plugin" title="fog05.interfaces.Plugin.Plugin"><code class="xref py py-class docutils literal"><span class="pre">fog05.interfaces.Plugin.Plugin</span></code></a></p>
+<p>Class: NetworkPlugin</p>
+<p>This class is an interface for plugins that control the network resouces, and provide an abstraction layer
+for networking managment functions</p>
+<dl class="method">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkPlugin.allocate_bandwidth">
+<code class="descname">allocate_bandwidth</code><span class="sig-paren">(</span><em>intf_uuid</em>, <em>bandwidth</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkPlugin.allocate_bandwidth" title="Permalink to this definition">¶</a></dt>
+<dd><p>This should allocate bandwidth to a certaint virtual interface,
+if the interface not exists throw an exception</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Intf_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Bandwidth:</th><td class="field-body">tuple (up,down)</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkPlugin.assign_interface_to_network">
+<code class="descname">assign_interface_to_network</code><span class="sig-paren">(</span><em>network_uuid</em>, <em>intf_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkPlugin.assign_interface_to_network" title="Permalink to this definition">¶</a></dt>
+<dd><p>This should assign the interface identified by intf_uuid to the network identified by network_uuid,
+if the interface not exists throw an exception</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Network_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Intf_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkPlugin.create_connection_point">
+<code class="descname">create_connection_point</code><span class="sig-paren">(</span><em>cp_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkPlugin.create_connection_point" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a connection point with the given uuid</p>
+<p>ip tuntap add dev tun0 mode tun</p>
+<p>ip tuntap add dev tap0-1 mode tap</p>
+<p>attach one to the atomic entity and the other will be the connection point</p>
+<dl class="docutils">
+<dt>DEVICE TYPE FOR IP2ROUTE</dt>
+<dd>TYPE := { vlan | veth | vcan | dummy | ifb | macvlan | macvtap |
+bridge | bond | ipoib | ip6tnl | ipip | sit | vxlan |
+gre | gretap | ip6gre | ip6gretap | vti | nlmon |
+bond_slave | ipvlan | geneve | bridge_slave | vrf }</dd>
+</dl>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cp_uuid</strong> – </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the name of the connection point (the connection point is a virtual interface like a vtap interface)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkPlugin.create_virtual_bridge">
+<code class="descname">create_virtual_bridge</code><span class="sig-paren">(</span><em>name</em>, <em>uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkPlugin.create_virtual_bridge" title="Permalink to this definition">¶</a></dt>
+<dd><p>This should create a virtual bridge</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">tuple (bridge_name,bridge_uuid) or None in case of failure</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkPlugin.create_virtual_interface">
+<code class="descname">create_virtual_interface</code><span class="sig-paren">(</span><em>name</em>, <em>uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkPlugin.create_virtual_interface" title="Permalink to this definition">¶</a></dt>
+<dd><p>This should create a virtual network interface</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">tuple (interface_name,interface_uuid) or None in case of failure</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkPlugin.create_virtual_link">
+<code class="descname">create_virtual_link</code><span class="sig-paren">(</span><em>vl_uuid</em>, <em>connection_points</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkPlugin.create_virtual_link" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a virtual link between 2 connection points</p>
+<p>eg if is a linux bridge</p>
+<p>sudo ip link add vl_name type bridge
+sudo ip link set cp_1 master bridge_name
+sudo ip link set cp_2 master bridge_name</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>vl_uuid</strong> – string uuid of the new virtual link</li>
+<li><strong>connection_points</strong> – list of 2 connection point uuid</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">the virtual name (vl is a linux bridge or a openvswitch with only 2 ports)</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkPlugin.create_virtual_network">
+<code class="descname">create_virtual_network</code><span class="sig-paren">(</span><em>network_name</em>, <em>uuid</em>, <em>ip_range</em>, <em>has_dhcp</em>, <em>gateway</em>, <em>manifest</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkPlugin.create_virtual_network" title="Permalink to this definition">¶</a></dt>
+<dd><p>This should create a virtual network, with given caratteristics</p>
+<p>range should specified as CIRD subnet
+eg. 192.168.0.0/24 which means from 192.168.0.1 to 192.168.0.254
+if gateway address is none the entities connected to that network cannot reach internet
+if dhcp is true the easiest way to have a dhcp server is using dnsmasq
+eg. sudo dnsmasq -d  –interface=&lt;bridge_associated_to_this_network&gt; –bind-interfaces  –dhcp-range=&lt;start_ip&gt;,&lt;end_ip&gt;
+using -d you can parse dnsmasq output to listen to events like dhcp ack</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Network_name:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Ip_range:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Has_dhcp:</th><td class="field-body">bool</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Gateway:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">tuple (net_name,net_uuid) or None in case of failure</td>
+</tr>
+</tbody>
+</table>
+<p>#TODO on fog05 -&gt; support dhcp as used on OSM</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkPlugin.delete_virtual_bridge">
+<code class="descname">delete_virtual_bridge</code><span class="sig-paren">(</span><em>br_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkPlugin.delete_virtual_bridge" title="Permalink to this definition">¶</a></dt>
+<dd><p>Delete a virtual bride, if the bridge is one assigned to a network should throw an exception, if the bridge not exists throw an exception</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Br_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkPlugin.delete_virtual_interface">
+<code class="descname">delete_virtual_interface</code><span class="sig-paren">(</span><em>intf_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkPlugin.delete_virtual_interface" title="Permalink to this definition">¶</a></dt>
+<dd><p>This should delete a virtual interface identified by intf_uuid, if the interface is assigned to a network
+maybe can also call removeInterfaceFromNetwork() to avoid any problem,
+if the interface not exists throw an exception</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Intf_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkPlugin.delete_virtual_network">
+<code class="descname">delete_virtual_network</code><span class="sig-paren">(</span><em>network_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkPlugin.delete_virtual_network" title="Permalink to this definition">¶</a></dt>
+<dd><p>Delete the virtual network network_uuid, for correct network shutdown should kill the dnsmasq process eventually associated
+for dhcp and remove the bridge, if there are interface associate to this network should throw an exception</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Network_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkPlugin.get_network_info">
+<code class="descname">get_network_info</code><span class="sig-paren">(</span><em>network_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkPlugin.get_network_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkPlugin.remove_interface_from_network">
+<code class="descname">remove_interface_from_network</code><span class="sig-paren">(</span><em>network_uuid</em>, <em>intf_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkPlugin.remove_interface_from_network" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove the interface intf_uuid from network network_uuid, if interface not present throw an exception</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Network_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Intf_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.NetworkPlugin.NetworkPlugin.stop_network">
+<code class="descname">stop_network</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.NetworkPlugin.NetworkPlugin.stop_network" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-fog05.interfaces.OSPlugin">
+<span id="fog05-interfaces-osplugin-module"></span><h2>fog05.interfaces.OSPlugin module<a class="headerlink" href="#module-fog05.interfaces.OSPlugin" title="Permalink to this headline">¶</a></h2>
+<dl class="exception">
+<dt id="fog05.interfaces.OSPlugin.FileNotExistingException">
+<em class="property">exception </em><code class="descclassname">fog05.interfaces.OSPlugin.</code><code class="descname">FileNotExistingException</code><span class="sig-paren">(</span><em>message</em>, <em>errors</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.FileNotExistingException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin">
+<em class="property">class </em><code class="descclassname">fog05.interfaces.OSPlugin.</code><code class="descname">OSPlugin</code><span class="sig-paren">(</span><em>version</em>, <em>plugin_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#fog05.interfaces.Plugin.Plugin" title="fog05.interfaces.Plugin.Plugin"><code class="xref py py-class docutils literal"><span class="pre">fog05.interfaces.Plugin.Plugin</span></code></a></p>
+<p>Interfaces for plugins that allow interaction with underlying operating system
+provide an abstraction layer for some managment and monitoring functions</p>
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.add_know_host">
+<code class="descname">add_know_host</code><span class="sig-paren">(</span><em>hostname</em>, <em>ip</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.add_know_host" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.check_if_pid_exists">
+<code class="descname">check_if_pid_exists</code><span class="sig-paren">(</span><em>pid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.check_if_pid_exists" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.create_dir">
+<code class="descname">create_dir</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.create_dir" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.create_file">
+<code class="descname">create_file</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.create_file" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.dir_exists">
+<code class="descname">dir_exists</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.dir_exists" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.download_file">
+<code class="descname">download_file</code><span class="sig-paren">(</span><em>url</em>, <em>file_path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.download_file" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.execute_command">
+<code class="descname">execute_command</code><span class="sig-paren">(</span><em>command</em>, <em>blocking</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.execute_command" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute a command to cli of underlying os, IDK should return bool or the command output?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Command:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">String or bool?</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.file_exists">
+<code class="descname">file_exists</code><span class="sig-paren">(</span><em>file_path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.file_exists" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_CPUID">
+<code class="descname">get_CPUID</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_CPUID" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the underlying hw cpuid
+:return: String</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_CPU_level">
+<code class="descname">get_CPU_level</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_CPU_level" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the current cpu usage level
+:return: float</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_accelerators_informations">
+<code class="descname">get_accelerators_informations</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_accelerators_informations" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_base_path">
+<code class="descname">get_base_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_base_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_disks_information">
+<code class="descname">get_disks_information</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_disks_information" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_hostname">
+<code class="descname">get_hostname</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_hostname" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_intf_type">
+<code class="descname">get_intf_type</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_intf_type" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_io_informations">
+<code class="descname">get_io_informations</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_io_informations" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_memory_information">
+<code class="descname">get_memory_information</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_memory_information" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_memory_level">
+<code class="descname">get_memory_level</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_memory_level" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the current memory usage level
+:return: float</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_network_informations">
+<code class="descname">get_network_informations</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_network_informations" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_network_level">
+<code class="descname">get_network_level</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_network_level" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the current network usage level
+:return: float</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_pid">
+<code class="descname">get_pid</code><span class="sig-paren">(</span><em>process</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_pid" title="Permalink to this definition">¶</a></dt>
+<dd><p>Try to get the the pid from the process name
+:process: string
+:return: int</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_position_information">
+<code class="descname">get_position_information</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_position_information" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_processor_information">
+<code class="descname">get_processor_information</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_processor_information" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_storage_level">
+<code class="descname">get_storage_level</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_storage_level" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the current local storage usage level
+:return: float</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.get_uuid">
+<code class="descname">get_uuid</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.get_uuid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.install_package">
+<code class="descname">install_package</code><span class="sig-paren">(</span><em>packages</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.install_package" title="Permalink to this definition">¶</a></dt>
+<dd><p>Install all packages passed within the parameter, return a bool
+to know the retult of operation</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Packages:</th><td class="field-body">tuple</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.read_binary_file">
+<code class="descname">read_binary_file</code><span class="sig-paren">(</span><em>file_path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.read_binary_file" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.read_file">
+<code class="descname">read_file</code><span class="sig-paren">(</span><em>file_path</em>, <em>root=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.read_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read the content from a file in the local disk, maybe can convert from windows dir separator to unix dir separator
+return the file content
+throw an exception if file not exits</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">File_path:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">byte</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.remove_dir">
+<code class="descname">remove_dir</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.remove_dir" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.remove_file">
+<code class="descname">remove_file</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.remove_file" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.remove_know_host">
+<code class="descname">remove_know_host</code><span class="sig-paren">(</span><em>hostname</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.remove_know_host" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.remove_package">
+<code class="descname">remove_package</code><span class="sig-paren">(</span><em>packages</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.remove_package" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove all packages passed within the parameter, return a bool
+to know the retult of operation</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Packages:</th><td class="field-body">tuple</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.send_sig_int">
+<code class="descname">send_sig_int</code><span class="sig-paren">(</span><em>pid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.send_sig_int" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send a SigKill (Ctrl+C) to the process identified by pid
+throw an exception if pid not exits
+:pid: int
+:return: bool</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.send_sig_kill">
+<code class="descname">send_sig_kill</code><span class="sig-paren">(</span><em>pid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.send_sig_kill" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send a SigKill (kill the process) to the process identified by pid
+throw an exception if pid not exits
+:pid: int
+:return: bool</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.send_signal">
+<code class="descname">send_signal</code><span class="sig-paren">(</span><em>signal</em>, <em>pid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.send_signal" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send a signal to the process identified by pid
+throw an exception if pid not exits</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal:</th><td class="field-body">int</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Pid:</th><td class="field-body">int</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.set_accelerator_available">
+<code class="descname">set_accelerator_available</code><span class="sig-paren">(</span><em>acc_name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.set_accelerator_available" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.set_accelerator_unaviable">
+<code class="descname">set_accelerator_unaviable</code><span class="sig-paren">(</span><em>acc_name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.set_accelerator_unaviable" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.set_interface_available">
+<code class="descname">set_interface_available</code><span class="sig-paren">(</span><em>intf_name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.set_interface_available" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.set_interface_unaviable">
+<code class="descname">set_interface_unaviable</code><span class="sig-paren">(</span><em>intf_name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.set_interface_unaviable" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.set_io_available">
+<code class="descname">set_io_available</code><span class="sig-paren">(</span><em>io_name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.set_io_available" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.set_io_unaviable">
+<code class="descname">set_io_unaviable</code><span class="sig-paren">(</span><em>io_name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.set_io_unaviable" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.OSPlugin.OSPlugin.store_file">
+<code class="descname">store_file</code><span class="sig-paren">(</span><em>content</em>, <em>file_path</em>, <em>filename</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.OSPlugin.store_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>Store a file in local disk, maybe can convert from windows dir separator to unix dir separator</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Content:</th><td class="field-body">byte</td>
+</tr>
+<tr class="field-even field"><th class="field-name">File_path:</th><td class="field-body">string</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Filename:</th><td class="field-body">string</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="exception">
+<dt id="fog05.interfaces.OSPlugin.ProcessNotExistingException">
+<em class="property">exception </em><code class="descclassname">fog05.interfaces.OSPlugin.</code><code class="descname">ProcessNotExistingException</code><span class="sig-paren">(</span><em>message</em>, <em>errors</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.OSPlugin.ProcessNotExistingException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-fog05.interfaces.Plugin">
+<span id="fog05-interfaces-plugin-module"></span><h2>fog05.interfaces.Plugin module<a class="headerlink" href="#module-fog05.interfaces.Plugin" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="fog05.interfaces.Plugin.Plugin">
+<em class="property">class </em><code class="descclassname">fog05.interfaces.Plugin.</code><code class="descname">Plugin</code><span class="sig-paren">(</span><em>version</em>, <em>plugin_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Plugin.Plugin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="fog05.interfaces.Plugin.Plugin.get_version">
+<code class="descname">get_version</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Plugin.Plugin.get_version" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.Plugin.Plugin.react_to_cache">
+<code class="descname">react_to_cache</code><span class="sig-paren">(</span><em>key</em>, <em>value</em>, <em>version</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.Plugin.Plugin.react_to_cache" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="fog05-interfaces-resourcemanagmentplugin-module">
+<h2>fog05.interfaces.ResourceManagmentPlugin module<a class="headerlink" href="#fog05-interfaces-resourcemanagmentplugin-module" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-fog05.interfaces.RuntimePlugin">
+<span id="fog05-interfaces-runtimeplugin-module"></span><h2>fog05.interfaces.RuntimePlugin module<a class="headerlink" href="#module-fog05.interfaces.RuntimePlugin" title="Permalink to this headline">¶</a></h2>
+<dl class="exception">
+<dt id="fog05.interfaces.RuntimePlugin.EntityNotExistingException">
+<em class="property">exception </em><code class="descclassname">fog05.interfaces.RuntimePlugin.</code><code class="descname">EntityNotExistingException</code><span class="sig-paren">(</span><em>message</em>, <em>errors</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.EntityNotExistingException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<dl class="exception">
+<dt id="fog05.interfaces.RuntimePlugin.MigrationNotAllowedException">
+<em class="property">exception </em><code class="descclassname">fog05.interfaces.RuntimePlugin.</code><code class="descname">MigrationNotAllowedException</code><span class="sig-paren">(</span><em>message</em>, <em>errors</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.MigrationNotAllowedException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<dl class="exception">
+<dt id="fog05.interfaces.RuntimePlugin.MigrationNotPossibleException">
+<em class="property">exception </em><code class="descclassname">fog05.interfaces.RuntimePlugin.</code><code class="descname">MigrationNotPossibleException</code><span class="sig-paren">(</span><em>message</em>, <em>errors</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.MigrationNotPossibleException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin">
+<em class="property">class </em><code class="descclassname">fog05.interfaces.RuntimePlugin.</code><code class="descname">RuntimePlugin</code><span class="sig-paren">(</span><em>version</em>, <em>plugin_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#fog05.interfaces.Plugin.Plugin" title="fog05.interfaces.Plugin.Plugin"><code class="xref py py-class docutils literal"><span class="pre">fog05.interfaces.Plugin.Plugin</span></code></a></p>
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.after_migrate_entity_actions">
+<code class="descname">after_migrate_entity_actions</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>dst=False</em>, <em>instance_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.after_migrate_entity_actions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Action to be taken after a migration
+eg. delete disks of vms, delete state of µSvc, undefine entity</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Entity_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.before_migrate_entity_actions">
+<code class="descname">before_migrate_entity_actions</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>dst=False</em>, <em>instance_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.before_migrate_entity_actions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Action to be taken before a migration
+eg. copy disks of vms, save state of µSvc</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Entity_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.clean_entity">
+<code class="descname">clean_entity</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>instance_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.clean_entity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clean an entity</p>
+<p>this mode destroy the entity instance</p>
+<p>if the entity state do not allow transition to DEFINED (in this case is not in CONFIGURED)
+should throw an exception</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Entity_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.configure_entity">
+<code class="descname">configure_entity</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>instance_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.configure_entity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Configure an entity</p>
+<p>This should create an entity instance that can be addressed by …/entity/&lt;entity_uuid&gt;/instance/&lt;instance_uuid&gt;
+not clear at the time if instance uuid should be generated by this method or came as a paramenter
+This state is the separation from entity and entity instances, because here we create the files</p>
+<p>if the entity state do not allow transition to CONFIGURED (in this case is not in DEFINED)
+should throw an exception</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Entity_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.define_entity">
+<code class="descname">define_entity</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.define_entity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Define entity from args of from manifest file passed within parameters
+return the entity uuid
+:args: dict
+:return: String</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.get_entities">
+<code class="descname">get_entities</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.get_entities" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.is_uuid">
+<code class="descname">is_uuid</code><span class="sig-paren">(</span><em>uuid_string</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.is_uuid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.migrate_entity">
+<code class="descname">migrate_entity</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>dst=False</em>, <em>instance_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.migrate_entity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Migrate the entity identified by entity_uuid to the new FogNode identified by fognode_uuid
+The migration depend to the nature of the entity (native app, µSvc, VM, Container)
+if the entity state do not allow transition to MIGRATE (eg a native app can’t be migrated)
+should throw an exception
+if the destination node can’t handle the migration an exception should be throwed</p>
+<p>To help migration should use the two methods:</p>
+<ul class="simple">
+<li>beforeMigrateEntityActions()</li>
+<li>afterMigrateEntiryActions()</li>
+</ul>
+<p>After the migration the entity on the source node has to be undefined
+the one on the destination node has to be in RUNNING</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Entity_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Fognode_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.pause_entity">
+<code class="descname">pause_entity</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>instance_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.pause_entity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pause an entity</p>
+<p>if the entity state do not allow transition to PAUSED (in this case is not in RUNNING)
+should throw an exception</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Entity_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.resume_entity">
+<code class="descname">resume_entity</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>instance_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.resume_entity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resume an entity</p>
+<p>if the entity state do not allow transition to RUNNING (in this case is not in PAUSED)
+should throw an exception</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Entity_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.run_entity">
+<code class="descname">run_entity</code><span class="sig-paren">(</span><em>enitity_uuid</em>, <em>instance_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.run_entity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Start the entity identified by entity_uuid
+if the entity state do not allow transition to RUN (eg is non CONFIGURED)
+should throw an exception</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Entity_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.scale_entity">
+<code class="descname">scale_entity</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>instance_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.scale_entity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Scale an entity
+eg. give more cpu/ram/disk, maybe passed by parameter the new scale value?</p>
+<p>if the entity state do not allow transition to SCALE (in this case is not in RUNNING)
+should throw an exception</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Entity_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.start_runtime">
+<code class="descname">start_runtime</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.start_runtime" title="Permalink to this definition">¶</a></dt>
+<dd><p>start the runtime
+:return: runtime pid or runtime uuid?</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.stop_entity">
+<code class="descname">stop_entity</code><span class="sig-paren">(</span><em>enitity_uuid</em>, <em>instance_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.stop_entity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Stop the entity identified by entity_uuid
+if the entity state do not allow transition to CONFIGURED (in this case is not in RUNNING)
+should throw an exception</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Entity_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.stop_runtime">
+<code class="descname">stop_runtime</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.stop_runtime" title="Permalink to this definition">¶</a></dt>
+<dd><p>stop this runtime</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.interfaces.RuntimePlugin.RuntimePlugin.undefine_entity">
+<code class="descname">undefine_entity</code><span class="sig-paren">(</span><em>enitity_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.RuntimePlugin.undefine_entity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Undefine the entity identified by entity_uuid
+if the entity state do not allow transition to UNDEFINED
+should throw an exception</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Entity_uuid:</th><td class="field-body">String</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="exception">
+<dt id="fog05.interfaces.RuntimePlugin.StateTransitionNotAllowedException">
+<em class="property">exception </em><code class="descclassname">fog05.interfaces.RuntimePlugin.</code><code class="descname">StateTransitionNotAllowedException</code><span class="sig-paren">(</span><em>message</em>, <em>errors</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.interfaces.RuntimePlugin.StateTransitionNotAllowedException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-fog05.interfaces.States">
+<span id="fog05-interfaces-states-module"></span><h2>fog05.interfaces.States module<a class="headerlink" href="#module-fog05.interfaces.States" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="fog05.interfaces.States.State">
+<em class="property">class </em><code class="descclassname">fog05.interfaces.States.</code><code class="descname">State</code><a class="headerlink" href="#fog05.interfaces.States.State" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></p>
+<p>States of entities</p>
+<dl class="attribute">
+<dt id="fog05.interfaces.States.State.CONFIGURED">
+<code class="descname">CONFIGURED</code><em class="property"> = 3</em><a class="headerlink" href="#fog05.interfaces.States.State.CONFIGURED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="fog05.interfaces.States.State.DEFINED">
+<code class="descname">DEFINED</code><em class="property"> = 1</em><a class="headerlink" href="#fog05.interfaces.States.State.DEFINED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="fog05.interfaces.States.State.ERROR">
+<code class="descname">ERROR</code><em class="property"> = -1</em><a class="headerlink" href="#fog05.interfaces.States.State.ERROR" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="fog05.interfaces.States.State.LANDING">
+<code class="descname">LANDING</code><em class="property"> = 9</em><a class="headerlink" href="#fog05.interfaces.States.State.LANDING" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="fog05.interfaces.States.State.MIGRATING">
+<code class="descname">MIGRATING</code><em class="property"> = 7</em><a class="headerlink" href="#fog05.interfaces.States.State.MIGRATING" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="fog05.interfaces.States.State.PAUSED">
+<code class="descname">PAUSED</code><em class="property"> = 5</em><a class="headerlink" href="#fog05.interfaces.States.State.PAUSED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="fog05.interfaces.States.State.RUNNING">
+<code class="descname">RUNNING</code><em class="property"> = 4</em><a class="headerlink" href="#fog05.interfaces.States.State.RUNNING" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="fog05.interfaces.States.State.SCALING">
+<code class="descname">SCALING</code><em class="property"> = 6</em><a class="headerlink" href="#fog05.interfaces.States.State.SCALING" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="fog05.interfaces.States.State.TAKING_OFF">
+<code class="descname">TAKING_OFF</code><em class="property"> = 8</em><a class="headerlink" href="#fog05.interfaces.States.State.TAKING_OFF" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="fog05.interfaces.States.State.UNDEFINED">
+<code class="descname">UNDEFINED</code><em class="property"> = 0</em><a class="headerlink" href="#fog05.interfaces.States.State.UNDEFINED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-fog05.interfaces">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-fog05.interfaces" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, ADLINK Technology.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/fog05.interfaces.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
