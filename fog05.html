@@ -1,0 +1,922 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>fog05 package &#8212; fog05 0.1.3a1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1.3a1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="fog05-package">
+<h1>fog05 package<a class="headerlink" href="#fog05-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="fog05.interfaces.html">fog05.interfaces package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.Agent">fog05.interfaces.Agent module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.Entity">fog05.interfaces.Entity module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.EntityInstance">fog05.interfaces.EntityInstance module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.MonitoringPlugin">fog05.interfaces.MonitoringPlugin module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.NetworkPlugin">fog05.interfaces.NetworkPlugin module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.OSPlugin">fog05.interfaces.OSPlugin module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.Plugin">fog05.interfaces.Plugin module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#fog05-interfaces-resourcemanagmentplugin-module">fog05.interfaces.ResourceManagmentPlugin module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.RuntimePlugin">fog05.interfaces.RuntimePlugin module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.States">fog05.interfaces.States module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-fog05.DLogger">
+<span id="fog05-dlogger-module"></span><h2>fog05.DLogger module<a class="headerlink" href="#module-fog05.DLogger" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="fog05.DLogger.DLogger">
+<em class="property">class </em><code class="descclassname">fog05.DLogger.</code><code class="descname">DLogger</code><span class="sig-paren">(</span><em>file_name=None</em>, <em>debug_flag=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.DLogger.DLogger" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="fog05.DLogger.DLogger.debug">
+<code class="descname">debug</code><span class="sig-paren">(</span><em>caller</em>, <em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.DLogger.DLogger.debug" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.DLogger.DLogger.disable">
+<code class="descname">disable</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.DLogger.DLogger.disable" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.DLogger.DLogger.enable">
+<code class="descname">enable</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.DLogger.DLogger.enable" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="fog05.DLogger.DLogger.enabled">
+<code class="descname">enabled</code><em class="property"> = True</em><a class="headerlink" href="#fog05.DLogger.DLogger.enabled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.DLogger.DLogger.error">
+<code class="descname">error</code><span class="sig-paren">(</span><em>caller</em>, <em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.DLogger.DLogger.error" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.DLogger.DLogger.info">
+<code class="descname">info</code><span class="sig-paren">(</span><em>caller</em>, <em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.DLogger.DLogger.info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="fog05.DLogger.DLogger.instance">
+<code class="descname">instance</code><em class="property"> = None</em><a class="headerlink" href="#fog05.DLogger.DLogger.instance" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.DLogger.DLogger.warning">
+<code class="descname">warning</code><span class="sig-paren">(</span><em>caller</em>, <em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.DLogger.DLogger.warning" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-fog05.PluginLoader">
+<span id="fog05-pluginloader-module"></span><h2>fog05.PluginLoader module<a class="headerlink" href="#module-fog05.PluginLoader" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="fog05.PluginLoader.PluginLoader">
+<em class="property">class </em><code class="descclassname">fog05.PluginLoader.</code><code class="descname">PluginLoader</code><span class="sig-paren">(</span><em>plugin_path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.PluginLoader.PluginLoader" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="fog05.PluginLoader.PluginLoader.get_plugins">
+<code class="descname">get_plugins</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.PluginLoader.PluginLoader.get_plugins" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.PluginLoader.PluginLoader.install_requirements">
+<code class="descname">install_requirements</code><span class="sig-paren">(</span><em>requirements</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.PluginLoader.PluginLoader.install_requirements" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.PluginLoader.PluginLoader.load_plugin">
+<code class="descname">load_plugin</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.PluginLoader.PluginLoader.load_plugin" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.PluginLoader.PluginLoader.locate_plugin">
+<code class="descname">locate_plugin</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.PluginLoader.PluginLoader.locate_plugin" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-fog05.Schemas">
+<span id="fog05-schemas-module"></span><h2>fog05.Schemas module<a class="headerlink" href="#module-fog05.Schemas" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="fog05.Schemas.readFile">
+<code class="descclassname">fog05.Schemas.</code><code class="descname">readFile</code><span class="sig-paren">(</span><em>file_path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.Schemas.readFile" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-fog05.api">
+<span id="fog05-api-module"></span><h2>fog05.api module<a class="headerlink" href="#module-fog05.api" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="fog05.api.API">
+<em class="property">class </em><code class="descclassname">fog05.api.</code><code class="descname">API</code><span class="sig-paren">(</span><em>sysid=0</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>This class allow the interaction with fog05 using simple Python3 API
+Need the distributed store</p>
+<dl class="class">
+<dt id="fog05.api.API.Entity">
+<em class="property">class </em><code class="descname">Entity</code><span class="sig-paren">(</span><em>store=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>This class encapsulates the api for interaction with entities</p>
+<dl class="method">
+<dt id="fog05.api.API.Entity.add">
+<code class="descname">add</code><span class="sig-paren">(</span><em>manifest</em>, <em>node_uuid=None</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.add" title="Permalink to this definition">¶</a></dt>
+<dd><p>define, configure and run an entity all in one shot
+:param manifest: manifest rapresenting the entity
+:param node_uuid: optional uuid of the node in which the entity will be added
+:param wait: flag for wait that everything is started before returing
+:return: the instance uuid</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Entity.clean">
+<code class="descname">clean</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>instance_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.clean" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clean an atomic entity instance, this will destroy the instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>entity_uuid</strong> – entity for which you want to clean an instance</li>
+<li><strong>node_uuid</strong> – destionation node</li>
+<li><strong>instance_uuid</strong> – instance you want to clean</li>
+<li><strong>wait</strong> – optional wait before returning</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Entity.configure">
+<code class="descname">configure</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>instance_uuid=None</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.configure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Configure an atomic entity, creation of the instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>entity_uuid</strong> – entity you want to configure</li>
+<li><strong>node_uuid</strong> – destination node</li>
+<li><strong>instance_uuid</strong> – optional if preset will use that uuid for the atomic entity instance otherwise will generate a new one</li>
+<li><strong>wait</strong> – optional wait before returning</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">intstance uuid or none in case of error</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Entity.define">
+<code class="descname">define</code><span class="sig-paren">(</span><em>manifest</em>, <em>node_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.define" title="Permalink to this definition">¶</a></dt>
+<dd><p>Defines an atomic entity in a node, this method will check the manifest before sending the definition to the node</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>manifest</strong> – dictionary representing the atomic entity manifest</li>
+<li><strong>node_uuid</strong> – destination node uuid</li>
+<li><strong>wait</strong> – if wait that the definition is complete before returning</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Entity.migrate">
+<code class="descname">migrate</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>instance_uuid</em>, <em>node_uuid</em>, <em>destination_node_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.migrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Live migrate an atomic entity instance between two nodes</p>
+<p>The migration is issued when this command is sended, there is a little overhead for the copy of the base image and the disk image</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>entity_uuid</strong> – ntity for which you want to migrate the instance</li>
+<li><strong>instance_uuid</strong> – instance you want to migrate</li>
+<li><strong>node_uuid</strong> – source node for the instance</li>
+<li><strong>destination_node_uuid</strong> – destination node for the instance</li>
+<li><strong>wait</strong> – optional wait before returning</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Entity.pause">
+<code class="descname">pause</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>instance_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.pause" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pause the exectution of an atomic entity instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>entity_uuid</strong> – entity for which you want to pause the instance</li>
+<li><strong>node_uuid</strong> – destination node</li>
+<li><strong>instance_uuid</strong> – instance you want to pause</li>
+<li><strong>wait</strong> – optional wait before returning</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Entity.remove">
+<code class="descname">remove</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid=None</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.remove" title="Permalink to this definition">¶</a></dt>
+<dd><p>stop, clean and undefine entity all in one shot</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>entity_uuid</strong> – </li>
+<li><strong>node_uuid</strong> – </li>
+<li><strong>wait</strong> – </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">the instance uuid</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Entity.resume">
+<code class="descname">resume</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>instance_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.resume" title="Permalink to this definition">¶</a></dt>
+<dd><p>resume the exectution of an atomic entity instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>entity_uuid</strong> – entity for which you want to resume the instance</li>
+<li><strong>node_uuid</strong> – destination node</li>
+<li><strong>instance_uuid</strong> – instance you want to resume</li>
+<li><strong>wait</strong> – optional wait before returning</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Entity.run">
+<code class="descname">run</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>instance_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.run" title="Permalink to this definition">¶</a></dt>
+<dd><p>Starting and atomic entity instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>entity_uuid</strong> – entity for which you want to run the instance</li>
+<li><strong>node_uuid</strong> – destination node</li>
+<li><strong>instance_uuid</strong> – instance you want to start</li>
+<li><strong>wait</strong> – optional wait before returning</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Entity.search">
+<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.search" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Entity.stop">
+<code class="descname">stop</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>instance_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.stop" title="Permalink to this definition">¶</a></dt>
+<dd><p>Shutting down an atomic entity instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>entity_uuid</strong> – entity for which you want to shutdown the instance</li>
+<li><strong>node_uuid</strong> – destination node</li>
+<li><strong>instance_uuid</strong> – instance you want to shutdown</li>
+<li><strong>wait</strong> – optional wait before returning</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Entity.undefine">
+<code class="descname">undefine</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.undefine" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method undefine an atomic entity in a node</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>entity_uuid</strong> – atomic entity you want to undefine</li>
+<li><strong>node_uuid</strong> – destination node</li>
+<li><strong>wait</strong> – if wait before returning that the entity is undefined</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.api.API.Flavor">
+<em class="property">class </em><code class="descname">Flavor</code><span class="sig-paren">(</span><em>store=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Flavor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>This class encapsulates the action on flavors</p>
+<dl class="method">
+<dt id="fog05.api.API.Flavor.add">
+<code class="descname">add</code><span class="sig-paren">(</span><em>manifest</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Flavor.add" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a computing flavor to a node or all nodes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>manifest</strong> – dictionary representing the manifest for the flavor</li>
+<li><strong>node_uuid</strong> – optional node in which add the flavor</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Flavor.remove">
+<code class="descname">remove</code><span class="sig-paren">(</span><em>flavor_uuid</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Flavor.remove" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove a flavor from all nodes or a specified node</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>flavor_uuid</strong> – flavor to remove</li>
+<li><strong>node_uuid</strong> – optional node from which remove the flavor</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Flavor.search">
+<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Flavor.search" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.api.API.Image">
+<em class="property">class </em><code class="descname">Image</code><span class="sig-paren">(</span><em>store=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Image" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>This class encapsulates the action on images</p>
+<dl class="method">
+<dt id="fog05.api.API.Image.add">
+<code class="descname">add</code><span class="sig-paren">(</span><em>manifest</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Image.add" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adding an image to a node or to all nodes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>manifest</strong> – dictionary representing the manifest for the image</li>
+<li><strong>node_uuid</strong> – optional node in which add the image</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Image.remove">
+<code class="descname">remove</code><span class="sig-paren">(</span><em>image_uuid</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Image.remove" title="Permalink to this definition">¶</a></dt>
+<dd><p>remove an image for a node or all nodes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>image_uuid</strong> – image you want to remove</li>
+<li><strong>node_uuid</strong> – optional node from which remove the image</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Image.search">
+<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Image.search" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.api.API.Manifest">
+<em class="property">class </em><code class="descname">Manifest</code><span class="sig-paren">(</span><em>store=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Manifest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>This class encapsulates API for manifests</p>
+<dl class="class">
+<dt id="fog05.api.API.Manifest.Type">
+<em class="property">class </em><code class="descname">Type</code><a class="headerlink" href="#fog05.api.API.Manifest.Type" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></p>
+<p>Manifest types</p>
+<dl class="attribute">
+<dt id="fog05.api.API.Manifest.Type.ENTITY">
+<code class="descname">ENTITY</code><em class="property"> = 0</em><a class="headerlink" href="#fog05.api.API.Manifest.Type.ENTITY" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="fog05.api.API.Manifest.Type.FLAVOR">
+<code class="descname">FLAVOR</code><em class="property"> = 3</em><a class="headerlink" href="#fog05.api.API.Manifest.Type.FLAVOR" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="fog05.api.API.Manifest.Type.IMAGE">
+<code class="descname">IMAGE</code><em class="property"> = 1</em><a class="headerlink" href="#fog05.api.API.Manifest.Type.IMAGE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="fog05.api.API.Manifest.Type.NETWORK">
+<code class="descname">NETWORK</code><em class="property"> = 4</em><a class="headerlink" href="#fog05.api.API.Manifest.Type.NETWORK" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="fog05.api.API.Manifest.Type.PLUGIN">
+<code class="descname">PLUGIN</code><em class="property"> = 5</em><a class="headerlink" href="#fog05.api.API.Manifest.Type.PLUGIN" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Manifest.check">
+<code class="descname">check</code><span class="sig-paren">(</span><em>manifest</em>, <em>manifest_type</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Manifest.check" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method allow you to check if a manifest is write in the correct way</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>manifest</strong> – a dictionary rapresenting the JSON manifest</li>
+<li><strong>manifest_type</strong> – the manifest type from API.Manifest.Type</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.api.API.Network">
+<em class="property">class </em><code class="descname">Network</code><span class="sig-paren">(</span><em>store=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Network" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>This class encapsulates the command for Network element interaction</p>
+<dl class="method">
+<dt id="fog05.api.API.Network.add">
+<code class="descname">add</code><span class="sig-paren">(</span><em>manifest</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Network.add" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a network element to a node o to all nodes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>manifest</strong> – dictionary representing the manifest of that network element</li>
+<li><strong>node_uuid</strong> – optional the node uuid in which add the network element</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Network.list">
+<code class="descname">list</code><span class="sig-paren">(</span><em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Network.list" title="Permalink to this definition">¶</a></dt>
+<dd><p>List all network element available in the system/teneant or in a specified node</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>node_uuid</strong> – optional node uuid</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">dictionary {node uuid: network element list}</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Network.remove">
+<code class="descname">remove</code><span class="sig-paren">(</span><em>net_uuid</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Network.remove" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove a network element form one or all nodes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>net_uuid</strong> – uuid of the network you want to remove</li>
+<li><strong>node_uuid</strong> – optional node from which remove the network element</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Network.search">
+<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Network.search" title="Permalink to this definition">¶</a></dt>
+<dd><p>Will search for a network element matching the dictionary in a single node or in all nodes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>search_dict</strong> – dictionary contains all information to match</li>
+<li><strong>node_uuid</strong> – optional node uuid in which search</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">a dictionary with {node_uuid, network element uuid list} with matches</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.api.API.Node">
+<em class="property">class </em><code class="descname">Node</code><span class="sig-paren">(</span><em>store=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Node" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>This class encapsulates the command for Node interaction</p>
+<dl class="method">
+<dt id="fog05.api.API.Node.info">
+<code class="descname">info</code><span class="sig-paren">(</span><em>node_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Node.info" title="Permalink to this definition">¶</a></dt>
+<dd><p>Provide all information about a specific node</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>node_uuid</strong> – the uuid of the node you want info</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a dictionary with all information about the node</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Node.list">
+<code class="descname">list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Node.list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get all nodes in the current system/tenant</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">list of tuples (uuid, hostname)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Node.plugins">
+<code class="descname">plugins</code><span class="sig-paren">(</span><em>node_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Node.plugins" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the list of plugin installed on the specified node</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>node_uuid</strong> – the uuid of the node you want info</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a list of the plugins installed in the node with detailed informations</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Node.search">
+<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Node.search" title="Permalink to this definition">¶</a></dt>
+<dd><p>Will search for a node that match information provided in the parameter</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>search_dict</strong> – dictionary contains all information to match</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a list of node matching the dictionary</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.api.API.Plugin">
+<em class="property">class </em><code class="descname">Plugin</code><span class="sig-paren">(</span><em>store=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Plugin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>This class encapsulates the commands for Plugin interaction</p>
+<dl class="method">
+<dt id="fog05.api.API.Plugin.add">
+<code class="descname">add</code><span class="sig-paren">(</span><em>manifest</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Plugin.add" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a plugin to a node or to all node in the system/tenant</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>manifest</strong> – the dictionary representing the plugin manifes</li>
+<li><strong>node_uuid</strong> – optional the node in which add the plugin</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Plugin.list">
+<code class="descname">list</code><span class="sig-paren">(</span><em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Plugin.list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Same as API.Node.Plugins but can work for all node un the system, return a dictionary with key node uuid and value the plugin list</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>node_uuid</strong> – can be none</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">dictionary {node_uuid, plugin list }</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Plugin.remove">
+<code class="descname">remove</code><span class="sig-paren">(</span><em>plugin_uuid</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Plugin.remove" title="Permalink to this definition">¶</a></dt>
+<dd><p>Will remove a plugin for a node or all nodes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>plugin_uuid</strong> – the plugin you want to remove</li>
+<li><strong>node_uuid</strong> – optional the node that will remove the plugin</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.api.API.Plugin.search">
+<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Plugin.search" title="Permalink to this definition">¶</a></dt>
+<dd><p>Will search for a plugin matching the dictionary in a single node or in all nodes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>search_dict</strong> – dictionary contains all information to match</li>
+<li><strong>node_uuid</strong> – optional node uuid in which search</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">a dictionary with {node_uuid, plugin uuid list} with matches</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.api.FOSStore">
+<em class="property">class </em><code class="descclassname">fog05.api.</code><code class="descname">FOSStore</code><span class="sig-paren">(</span><em>aroot</em>, <em>droot</em>, <em>home</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.FOSStore" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Helper class to interact with the Store</p>
+<dl class="method">
+<dt id="fog05.api.FOSStore.close">
+<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.FOSStore.close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Close the store</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-fog05.fosagent">
+<span id="fog05-fosagent-module"></span><h2>fog05.fosagent module<a class="headerlink" href="#module-fog05.fosagent" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="fog05.fosagent.FosAgent">
+<em class="property">class </em><code class="descclassname">fog05.fosagent.</code><code class="descname">FosAgent</code><span class="sig-paren">(</span><em>debug=True</em>, <em>plugins_path=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fosagent.FosAgent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="fog05.interfaces.html#fog05.interfaces.Agent.Agent" title="fog05.interfaces.Agent.Agent"><code class="xref py py-class docutils literal"><span class="pre">fog05.interfaces.Agent.Agent</span></code></a></p>
+<dl class="method">
+<dt id="fog05.fosagent.FosAgent.get_network_plugin">
+<code class="descname">get_network_plugin</code><span class="sig-paren">(</span><em>cnetwork_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fosagent.FosAgent.get_network_plugin" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.fosagent.FosAgent.get_os_plugin">
+<code class="descname">get_os_plugin</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fosagent.FosAgent.get_os_plugin" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.fosagent.FosAgent.run">
+<code class="descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fosagent.FosAgent.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.fosagent.FosAgent.stop">
+<code class="descname">stop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fosagent.FosAgent.stop" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-fog05">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-fog05" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, ADLINK Technology.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/fog05.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
