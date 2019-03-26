@@ -1,0 +1,49 @@
+module: fdud
+  +--rw fdu_descriptor
+     +--rw uuid?                         string
+     +--rw name?                         string
+     +--rw description?                  string
+     +--rw image
+     |  +--rw uuid?       string
+     |  +--rw name?       string
+     |  +--rw uri?        string
+     |  +--rw checksum?   string
+     |  +--rw format?     string
+     +--rw command
+     |  +--rw binary?   string
+     |  +--rw args*     string
+     +--rw computational_requirements
+     |  +--rw uuid?              string
+     |  +--rw name?              string
+     |  +--rw cpu_arch?          string
+     |  +--rw cpu_min_freq?      decimal64
+     |  +--rw cpu_min_count?     int64
+     |  +--rw ram_size_mb?       decimal64
+     |  +--rw storage_size_gb?   decimal64
+     |  +--rw gpu_min_count?     int64
+     |  +--rw fpga_min_count?    int64
+     |  +--rw duty_cycle?        decimal64
+     +--rw configuration
+     |  +--rw conf_type?   conf_types
+     |  +--rw script?      string
+     |  +--rw ssh-keys*    string
+     +--rw interfaces* [name]
+     |  +--rw name                 string
+     |  +--rw is_mgmt?             boolean
+     |  +--rw mac_address?         string
+     |  +--rw cp_id?               string
+     |  +--rw if_type?             intf_t
+     |  +--rw virtual_interface
+     |     +--rw intf_type?   vintf_t
+     |     +--rw vpci?        string
+     |     +--rw bandwidth?   int64
+     +--rw hypervisor?                   hv_kind
+     +--rw migration_kind?               migr_kind
+     +--rw connection_points* [uuid]
+     |  +--rw uuid       string
+     |  +--rw pair_id?   string
+     +--rw io_ports* [name]
+     |  +--rw name            string
+     |  +--rw min_io_ports?   int64
+     |  +--rw io_type?        io_kind
+     +--rw depends_on*                   string

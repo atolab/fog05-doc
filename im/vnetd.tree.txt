@@ -1,0 +1,6 @@
+module: vnetd
+  +--rw vnet_descriptor
+     +--rw uuid?       string
+     +--rw name?       string
+     +--rw is_mgmt?    boolean
+     +--rw net_type?   vn_type

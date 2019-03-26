@@ -1,0 +1,5 @@
+module: vnetr.rec
+  +--rw vnet_record
+     +--rw uuid?         string
+     +--rw status?       net_state
+     +--rw properites?   string

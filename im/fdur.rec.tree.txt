@@ -1,0 +1,17 @@
+module: fdur.rec
+  +--rw fdu_record
+     +--rw fdu_uuid?               string
+     +--rw status?                 fdu_state
+     +--rw interfaces* [vintf_name]
+     |  +--rw vintf_name    string
+     |  +--rw status?       net_state
+     |  +--rw properties?   string
+     +--rw connection_points* [cp_uuid]
+     |  +--rw cp_uuid       string
+     |  +--rw status?       net_state
+     |  +--rw properties?   string
+     +--rw error_code?             int64
+     +--rw migration_properties
+     |  +--rw destination?   string
+     |  +--rw source?        string
+     +--rw hypervisor_info?        string
