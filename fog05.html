@@ -4,23 +4,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>fog05 package &#8212; fog05 0.1.3a1 documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '0.1.3a1',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
    
@@ -29,154 +22,42 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
 
-  </head>
-  <body>
+  </head><body>
   
 
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
+          
+
           <div class="body" role="main">
             
   <div class="section" id="fog05-package">
 <h1>fog05 package<a class="headerlink" href="#fog05-package" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="subpackages">
-<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="fog05.interfaces.html">fog05.interfaces package</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#submodules">Submodules</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.Agent">fog05.interfaces.Agent module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.Entity">fog05.interfaces.Entity module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.EntityInstance">fog05.interfaces.EntityInstance module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.MonitoringPlugin">fog05.interfaces.MonitoringPlugin module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.NetworkPlugin">fog05.interfaces.NetworkPlugin module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.OSPlugin">fog05.interfaces.OSPlugin module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.Plugin">fog05.interfaces.Plugin module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#fog05-interfaces-resourcemanagmentplugin-module">fog05.interfaces.ResourceManagmentPlugin module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.RuntimePlugin">fog05.interfaces.RuntimePlugin module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces.States">fog05.interfaces.States module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fog05.interfaces.html#module-fog05.interfaces">Module contents</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
 <div class="section" id="submodules">
 <h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="module-fog05.DLogger">
-<span id="fog05-dlogger-module"></span><h2>fog05.DLogger module<a class="headerlink" href="#module-fog05.DLogger" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-fog05.fimapi">
+<span id="fog05-fimapi-module"></span><h2>fog05.FIMAPI module<a class="headerlink" href="#module-fog05.fimapi" title="Permalink to this headline">¶</a></h2>
 <dl class="class">
-<dt id="fog05.DLogger.DLogger">
-<em class="property">class </em><code class="descclassname">fog05.DLogger.</code><code class="descname">DLogger</code><span class="sig-paren">(</span><em>file_name=None</em>, <em>debug_flag=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.DLogger.DLogger" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<dl class="method">
-<dt id="fog05.DLogger.DLogger.debug">
-<code class="descname">debug</code><span class="sig-paren">(</span><em>caller</em>, <em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.DLogger.DLogger.debug" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="fog05.DLogger.DLogger.disable">
-<code class="descname">disable</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.DLogger.DLogger.disable" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="fog05.DLogger.DLogger.enable">
-<code class="descname">enable</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.DLogger.DLogger.enable" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="fog05.DLogger.DLogger.enabled">
-<code class="descname">enabled</code><em class="property"> = True</em><a class="headerlink" href="#fog05.DLogger.DLogger.enabled" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="fog05.DLogger.DLogger.error">
-<code class="descname">error</code><span class="sig-paren">(</span><em>caller</em>, <em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.DLogger.DLogger.error" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="fog05.DLogger.DLogger.info">
-<code class="descname">info</code><span class="sig-paren">(</span><em>caller</em>, <em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.DLogger.DLogger.info" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="fog05.DLogger.DLogger.instance">
-<code class="descname">instance</code><em class="property"> = None</em><a class="headerlink" href="#fog05.DLogger.DLogger.instance" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="fog05.DLogger.DLogger.warning">
-<code class="descname">warning</code><span class="sig-paren">(</span><em>caller</em>, <em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.DLogger.DLogger.warning" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</dd></dl>
-
-</div>
-<div class="section" id="module-fog05.PluginLoader">
-<span id="fog05-pluginloader-module"></span><h2>fog05.PluginLoader module<a class="headerlink" href="#module-fog05.PluginLoader" title="Permalink to this headline">¶</a></h2>
+<dt id="fog05.fimapi.FIMAPI">
+<em class="property">class </em><code class="descclassname">fog05.fimapi.</code><code class="descname">FIMAPI</code><span class="sig-paren">(</span><em>locator='127.0.0.1:7887'</em>, <em>sysid='0'</em>, <em>tenantid='0'</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>This class allow the interaction with fog05 FIM</p>
 <dl class="class">
-<dt id="fog05.PluginLoader.PluginLoader">
-<em class="property">class </em><code class="descclassname">fog05.PluginLoader.</code><code class="descname">PluginLoader</code><span class="sig-paren">(</span><em>plugin_path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.PluginLoader.PluginLoader" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<dl class="method">
-<dt id="fog05.PluginLoader.PluginLoader.get_plugins">
-<code class="descname">get_plugins</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.PluginLoader.PluginLoader.get_plugins" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="fog05.PluginLoader.PluginLoader.install_requirements">
-<code class="descname">install_requirements</code><span class="sig-paren">(</span><em>requirements</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.PluginLoader.PluginLoader.install_requirements" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="fog05.PluginLoader.PluginLoader.load_plugin">
-<code class="descname">load_plugin</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.PluginLoader.PluginLoader.load_plugin" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="fog05.PluginLoader.PluginLoader.locate_plugin">
-<code class="descname">locate_plugin</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.PluginLoader.PluginLoader.locate_plugin" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</dd></dl>
-
-</div>
-<div class="section" id="module-fog05.Schemas">
-<span id="fog05-schemas-module"></span><h2>fog05.Schemas module<a class="headerlink" href="#module-fog05.Schemas" title="Permalink to this headline">¶</a></h2>
-<dl class="function">
-<dt id="fog05.Schemas.readFile">
-<code class="descclassname">fog05.Schemas.</code><code class="descname">readFile</code><span class="sig-paren">(</span><em>file_path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.Schemas.readFile" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="section" id="module-fog05.api">
-<span id="fog05-api-module"></span><h2>fog05.api module<a class="headerlink" href="#module-fog05.api" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
-<dt id="fog05.api.API">
-<em class="property">class </em><code class="descclassname">fog05.api.</code><code class="descname">API</code><span class="sig-paren">(</span><em>sysid=0</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<p>This class allow the interaction with fog05 using simple Python3 API
-Need the distributed store</p>
-<dl class="class">
-<dt id="fog05.api.API.Entity">
-<em class="property">class </em><code class="descname">Entity</code><span class="sig-paren">(</span><em>store=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dt id="fog05.fimapi.FIMAPI.FDU">
+<em class="property">class </em><code class="descname">FDU</code><span class="sig-paren">(</span><em>connector=None</em>, <em>sysid='0'</em>, <em>tenantid='0'</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>This class encapsulates the api for interaction with entities</p>
 <dl class="method">
-<dt id="fog05.api.API.Entity.add">
-<code class="descname">add</code><span class="sig-paren">(</span><em>manifest</em>, <em>node_uuid=None</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.add" title="Permalink to this definition">¶</a></dt>
-<dd><p>define, configure and run an entity all in one shot
-:param manifest: manifest rapresenting the entity
-:param node_uuid: optional uuid of the node in which the entity will be added
-:param wait: flag for wait that everything is started before returing
-:return: the instance uuid</p>
+<dt id="fog05.fimapi.FIMAPI.FDU.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>connector=None</em>, <em>sysid='0'</em>, <em>tenantid='0'</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Entity.clean">
-<code class="descname">clean</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>instance_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.clean" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.FDU.clean">
+<code class="descname">clean</code><span class="sig-paren">(</span><em>fdu_uuid</em>, <em>node_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.clean" title="Permalink to this definition">¶</a></dt>
 <dd><p>Clean an atomic entity instance, this will destroy the instance</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -198,22 +79,23 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Entity.configure">
-<code class="descname">configure</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>instance_uuid=None</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.configure" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.FDU.configure">
+<code class="descname">configure</code><span class="sig-paren">(</span><em>fdu_uuid</em>, <em>node_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.configure" title="Permalink to this definition">¶</a></dt>
 <dd><p>Configure an atomic entity, creation of the instance</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>entity_uuid</strong> – entity you want to configure</li>
+<li><strong>fdu_uuid</strong> – FDU you want to configure</li>
 <li><strong>node_uuid</strong> – destination node</li>
-<li><strong>instance_uuid</strong> – optional if preset will use that uuid for the atomic entity instance otherwise will generate a new one</li>
+<li><strong>instance_uuid</strong> – optional if present will use that uuid
+for the atomic entity instance otherwise will generate a new one</li>
 <li><strong>wait</strong> – optional wait before returning</li>
 </ul>
 </td>
 </tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">intstance uuid or none in case of error</p>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">instance uuid or none in case of error</p>
 </td>
 </tr>
 </tbody>
@@ -221,9 +103,12 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Entity.define">
-<code class="descname">define</code><span class="sig-paren">(</span><em>manifest</em>, <em>node_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.define" title="Permalink to this definition">¶</a></dt>
-<dd><p>Defines an atomic entity in a node, this method will check the manifest before sending the definition to the node</p>
+<dt id="fog05.fimapi.FIMAPI.FDU.define">
+<code class="descname">define</code><span class="sig-paren">(</span><em>fduid</em>, <em>node_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.define" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>Defines an atomic entity in a node, this method will check</dt>
+<dd>the manifest before sending the definition to the node</dd>
+</dl>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -231,7 +116,8 @@ Need the distributed store</p>
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
 <li><strong>manifest</strong> – dictionary representing the atomic entity manifest</li>
 <li><strong>node_uuid</strong> – destination node uuid</li>
-<li><strong>wait</strong> – if wait that the definition is complete before returning</li>
+<li><strong>wait</strong> – if wait that the definition is complete before
+returning</li>
 </ul>
 </td>
 </tr>
@@ -243,19 +129,50 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Entity.migrate">
-<code class="descname">migrate</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>instance_uuid</em>, <em>node_uuid</em>, <em>destination_node_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.migrate" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.FDU.info">
+<code class="descname">info</code><span class="sig-paren">(</span><em>fdu_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.FDU.instance_info">
+<code class="descname">instance_info</code><span class="sig-paren">(</span><em>fdu_uuid</em>, <em>node_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.instance_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.FDU.list">
+<code class="descname">list</code><span class="sig-paren">(</span><em>node_uuid='*'</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.list" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>List all entity element available in the system/teneant</dt>
+<dd>or in a specified node</dd>
+</dl>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>node_uuid</strong> – optional node uuid</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">dictionary {node uuid: {entity uuid: instance list} list}</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.FDU.migrate">
+<code class="descname">migrate</code><span class="sig-paren">(</span><em>fduid</em>, <em>node_uuid</em>, <em>destination_node_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.migrate" title="Permalink to this definition">¶</a></dt>
 <dd><p>Live migrate an atomic entity instance between two nodes</p>
-<p>The migration is issued when this command is sended, there is a little overhead for the copy of the base image and the disk image</p>
+<dl class="docutils">
+<dt>The migration is issued when this command is sended,</dt>
+<dd>there is a little overhead for the copy of the base image and the disk image</dd>
+</dl>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>entity_uuid</strong> – ntity for which you want to migrate the instance</li>
-<li><strong>instance_uuid</strong> – instance you want to migrate</li>
-<li><strong>node_uuid</strong> – source node for the instance</li>
-<li><strong>destination_node_uuid</strong> – destination node for the instance</li>
+<li><strong>fduid</strong> – fdu you want to migrate</li>
+<li><strong>node_uuid</strong> – source node</li>
+<li><strong>destination_node_uuid</strong> – destination node</li>
 <li><strong>wait</strong> – optional wait before returning</li>
 </ul>
 </td>
@@ -268,8 +185,18 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Entity.pause">
-<code class="descname">pause</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>instance_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.pause" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.FDU.offload">
+<code class="descname">offload</code><span class="sig-paren">(</span><em>fdu_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.offload" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.FDU.onboard">
+<code class="descname">onboard</code><span class="sig-paren">(</span><em>descriptor</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.onboard" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.FDU.pause">
+<code class="descname">pause</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>instance_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.pause" title="Permalink to this definition">¶</a></dt>
 <dd><p>Pause the exectution of an atomic entity instance</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -291,37 +218,16 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Entity.remove">
-<code class="descname">remove</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid=None</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.remove" title="Permalink to this definition">¶</a></dt>
-<dd><p>stop, clean and undefine entity all in one shot</p>
+<dt id="fog05.fimapi.FIMAPI.FDU.resume">
+<code class="descname">resume</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>instance_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.resume" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resume the exectution of an atomic entity instance</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>entity_uuid</strong> – </li>
-<li><strong>node_uuid</strong> – </li>
-<li><strong>wait</strong> – </li>
-</ul>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">the instance uuid</p>
-</td>
-</tr>
-</tbody>
-</table>
-</dd></dl>
-
-<dl class="method">
-<dt id="fog05.api.API.Entity.resume">
-<code class="descname">resume</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>instance_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.resume" title="Permalink to this definition">¶</a></dt>
-<dd><p>resume the exectution of an atomic entity instance</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>entity_uuid</strong> – entity for which you want to resume the instance</li>
+<li><strong>entity_uuid</strong> – entity for which you want to
+resume the instance</li>
 <li><strong>node_uuid</strong> – destination node</li>
 <li><strong>instance_uuid</strong> – instance you want to resume</li>
 <li><strong>wait</strong> – optional wait before returning</li>
@@ -336,15 +242,15 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Entity.run">
-<code class="descname">run</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>instance_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.run" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.FDU.run">
+<code class="descname">run</code><span class="sig-paren">(</span><em>fdu_uuid</em>, <em>node_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.run" title="Permalink to this definition">¶</a></dt>
 <dd><p>Starting and atomic entity instance</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>entity_uuid</strong> – entity for which you want to run the instance</li>
+<li><strong>fdu_uuid</strong> – entity for which you want to run the instance</li>
 <li><strong>node_uuid</strong> – destination node</li>
 <li><strong>instance_uuid</strong> – instance you want to start</li>
 <li><strong>wait</strong> – optional wait before returning</li>
@@ -359,20 +265,20 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Entity.search">
-<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.search" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.FDU.search">
+<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.search" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Entity.stop">
-<code class="descname">stop</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>instance_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.stop" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.FDU.stop">
+<code class="descname">stop</code><span class="sig-paren">(</span><em>fdu_uuid</em>, <em>node_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.stop" title="Permalink to this definition">¶</a></dt>
 <dd><p>Shutting down an atomic entity instance</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>entity_uuid</strong> – entity for which you want to shutdown the instance</li>
+<li><strong>entity_uuid</strong> – entity for which you want toshutdown the instance</li>
 <li><strong>node_uuid</strong> – destination node</li>
 <li><strong>instance_uuid</strong> – instance you want to shutdown</li>
 <li><strong>wait</strong> – optional wait before returning</li>
@@ -387,8 +293,8 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Entity.undefine">
-<code class="descname">undefine</code><span class="sig-paren">(</span><em>entity_uuid</em>, <em>node_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Entity.undefine" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.FDU.undefine">
+<code class="descname">undefine</code><span class="sig-paren">(</span><em>fdu_uuid</em>, <em>node_uuid</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.FDU.undefine" title="Permalink to this definition">¶</a></dt>
 <dd><p>This method undefine an atomic entity in a node</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -411,20 +317,27 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="class">
-<dt id="fog05.api.API.Flavor">
-<em class="property">class </em><code class="descname">Flavor</code><span class="sig-paren">(</span><em>store=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Flavor" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dt id="fog05.fimapi.FIMAPI.Flavor">
+<em class="property">class </em><code class="descname">Flavor</code><span class="sig-paren">(</span><em>connector=None</em>, <em>sysid='0'</em>, <em>tenantid='0'</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Flavor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>This class encapsulates the action on flavors</p>
 <dl class="method">
-<dt id="fog05.api.API.Flavor.add">
-<code class="descname">add</code><span class="sig-paren">(</span><em>manifest</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Flavor.add" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.Flavor.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>connector=None</em>, <em>sysid='0'</em>, <em>tenantid='0'</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Flavor.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.Flavor.add">
+<code class="descname">add</code><span class="sig-paren">(</span><em>descriptor</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Flavor.add" title="Permalink to this definition">¶</a></dt>
 <dd><p>Add a computing flavor to a node or all nodes</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>manifest</strong> – dictionary representing the manifest for the flavor</li>
+<li><strong>manifest</strong> – dictionary representing the manifest
+for the flavor</li>
 <li><strong>node_uuid</strong> – optional node in which add the flavor</li>
 </ul>
 </td>
@@ -437,8 +350,46 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Flavor.remove">
-<code class="descname">remove</code><span class="sig-paren">(</span><em>flavor_uuid</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Flavor.remove" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.Flavor.get">
+<code class="descname">get</code><span class="sig-paren">(</span><em>flavor_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Flavor.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a computing flavor to a node or all nodes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>manifest</strong> – dictionary representing the manifest
+for the flavor</li>
+<li><strong>node_uuid</strong> – optional node in which add the flavor</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.Flavor.list">
+<code class="descname">list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Flavor.list" title="Permalink to this definition">¶</a></dt>
+<dd><p>List available entity flavors</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>node_uuid</strong> – optional node id</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">dictionaty {nodeid: {runtimeid: [flavor list]}}</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.Flavor.remove">
+<code class="descname">remove</code><span class="sig-paren">(</span><em>flavor_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Flavor.remove" title="Permalink to this definition">¶</a></dt>
 <dd><p>Remove a flavor from all nodes or a specified node</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -458,20 +409,26 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Flavor.search">
-<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Flavor.search" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.Flavor.search">
+<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Flavor.search" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
 <dl class="class">
-<dt id="fog05.api.API.Image">
-<em class="property">class </em><code class="descname">Image</code><span class="sig-paren">(</span><em>store=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Image" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dt id="fog05.fimapi.FIMAPI.Image">
+<em class="property">class </em><code class="descname">Image</code><span class="sig-paren">(</span><em>connector=None</em>, <em>sysid='0'</em>, <em>tenantid='0'</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Image" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>This class encapsulates the action on images</p>
 <dl class="method">
-<dt id="fog05.api.API.Image.add">
-<code class="descname">add</code><span class="sig-paren">(</span><em>manifest</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Image.add" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.Image.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>connector=None</em>, <em>sysid='0'</em>, <em>tenantid='0'</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Image.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.Image.add">
+<code class="descname">add</code><span class="sig-paren">(</span><em>descriptor</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Image.add" title="Permalink to this definition">¶</a></dt>
 <dd><p>Adding an image to a node or to all nodes</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -491,9 +448,30 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Image.remove">
-<code class="descname">remove</code><span class="sig-paren">(</span><em>image_uuid</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Image.remove" title="Permalink to this definition">¶</a></dt>
-<dd><p>remove an image for a node or all nodes</p>
+<dt id="fog05.fimapi.FIMAPI.Image.get">
+<code class="descname">get</code><span class="sig-paren">(</span><em>image_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Image.get" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.Image.list">
+<code class="descname">list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Image.list" title="Permalink to this definition">¶</a></dt>
+<dd><p>List available entity images</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>node_uuid</strong> – optional node id</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">dictionaty {nodeid: {runtimeid: [images list]}}</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.Image.remove">
+<code class="descname">remove</code><span class="sig-paren">(</span><em>image_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Image.remove" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove an image for a node or all nodes</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -512,53 +490,27 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Image.search">
-<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Image.search" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.Image.search">
+<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Image.search" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
 <dl class="class">
-<dt id="fog05.api.API.Manifest">
-<em class="property">class </em><code class="descname">Manifest</code><span class="sig-paren">(</span><em>store=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Manifest" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dt id="fog05.fimapi.FIMAPI.Manifest">
+<em class="property">class </em><code class="descname">Manifest</code><a class="headerlink" href="#fog05.fimapi.FIMAPI.Manifest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>This class encapsulates API for manifests</p>
-<dl class="class">
-<dt id="fog05.api.API.Manifest.Type">
-<em class="property">class </em><code class="descname">Type</code><a class="headerlink" href="#fog05.api.API.Manifest.Type" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></p>
-<p>Manifest types</p>
-<dl class="attribute">
-<dt id="fog05.api.API.Manifest.Type.ENTITY">
-<code class="descname">ENTITY</code><em class="property"> = 0</em><a class="headerlink" href="#fog05.api.API.Manifest.Type.ENTITY" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="fog05.api.API.Manifest.Type.FLAVOR">
-<code class="descname">FLAVOR</code><em class="property"> = 3</em><a class="headerlink" href="#fog05.api.API.Manifest.Type.FLAVOR" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="fog05.api.API.Manifest.Type.IMAGE">
-<code class="descname">IMAGE</code><em class="property"> = 1</em><a class="headerlink" href="#fog05.api.API.Manifest.Type.IMAGE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="fog05.api.API.Manifest.Type.NETWORK">
-<code class="descname">NETWORK</code><em class="property"> = 4</em><a class="headerlink" href="#fog05.api.API.Manifest.Type.NETWORK" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="fog05.api.API.Manifest.Type.PLUGIN">
-<code class="descname">PLUGIN</code><em class="property"> = 5</em><a class="headerlink" href="#fog05.api.API.Manifest.Type.PLUGIN" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.Manifest.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Manifest.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Manifest.check">
-<code class="descname">check</code><span class="sig-paren">(</span><em>manifest</em>, <em>manifest_type</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Manifest.check" title="Permalink to this definition">¶</a></dt>
-<dd><p>This method allow you to check if a manifest is write in the correct way</p>
+<dt id="fog05.fimapi.FIMAPI.Manifest.check">
+<code class="descname">check</code><span class="sig-paren">(</span><em>manifest</em>, <em>manifest_type</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Manifest.check" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method allow you to check a manifest</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -579,50 +531,80 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="class">
-<dt id="fog05.api.API.Network">
-<em class="property">class </em><code class="descname">Network</code><span class="sig-paren">(</span><em>store=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Network" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dt id="fog05.fimapi.FIMAPI.Network">
+<em class="property">class </em><code class="descname">Network</code><span class="sig-paren">(</span><em>connector=None</em>, <em>sysid='0'</em>, <em>tenantid='0'</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Network" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>This class encapsulates the command for Network element interaction</p>
 <dl class="method">
-<dt id="fog05.api.API.Network.add">
-<code class="descname">add</code><span class="sig-paren">(</span><em>manifest</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Network.add" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.Network.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>connector=None</em>, <em>sysid='0'</em>, <em>tenantid='0'</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Network.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.Network.add_connection_point">
+<code class="descname">add_connection_point</code><span class="sig-paren">(</span><em>cp_descriptor</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Network.add_connection_point" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.Network.add_network">
+<code class="descname">add_network</code><span class="sig-paren">(</span><em>manifest</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Network.add_network" title="Permalink to this definition">¶</a></dt>
 <dd><p>Add a network element to a node o to all nodes</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>manifest</strong> – dictionary representing the manifest of that network element</li>
-<li><strong>node_uuid</strong> – optional the node uuid in which add the network element</li>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>manifest</strong> – dictionary representing the manifest of
+that network element</li>
+<li><strong>node_uuid</strong> – optional the node uuid in which add</li>
 </ul>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">boolean</p>
 </td>
 </tr>
 </tbody>
 </table>
+<p>the network element
+:return: boolean</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Network.list">
-<code class="descname">list</code><span class="sig-paren">(</span><em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Network.list" title="Permalink to this definition">¶</a></dt>
-<dd><p>List all network element available in the system/teneant or in a specified node</p>
+<dt id="fog05.fimapi.FIMAPI.Network.connect_cp_to_network">
+<code class="descname">connect_cp_to_network</code><span class="sig-paren">(</span><em>cp_uuid</em>, <em>net_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Network.connect_cp_to_network" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.Network.delete_connection_point">
+<code class="descname">delete_connection_point</code><span class="sig-paren">(</span><em>cp_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Network.delete_connection_point" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.Network.disconnect_cp">
+<code class="descname">disconnect_cp</code><span class="sig-paren">(</span><em>cp_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Network.disconnect_cp" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.Network.list">
+<code class="descname">list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Network.list" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>List all network element available in the system/teneant or in a</dt>
+<dd>specified node</dd>
+</dl>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>node_uuid</strong> – optional node uuid</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">dictionary {node uuid: network element list}</td>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">dictionary {network uuid:
+{network manifest dictionary, pluginid, nodes}}</td>
 </tr>
 </tbody>
 </table>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Network.remove">
-<code class="descname">remove</code><span class="sig-paren">(</span><em>net_uuid</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Network.remove" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.Network.remove_network">
+<code class="descname">remove_network</code><span class="sig-paren">(</span><em>net_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Network.remove_network" title="Permalink to this definition">¶</a></dt>
 <dd><p>Remove a network element form one or all nodes</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -630,7 +612,8 @@ Need the distributed store</p>
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
 <li><strong>net_uuid</strong> – uuid of the network you want to remove</li>
-<li><strong>node_uuid</strong> – optional node from which remove the network element</li>
+<li><strong>node_uuid</strong> – optional node from which remove
+the network element</li>
 </ul>
 </td>
 </tr>
@@ -642,9 +625,12 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Network.search">
-<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Network.search" title="Permalink to this definition">¶</a></dt>
-<dd><p>Will search for a network element matching the dictionary in a single node or in all nodes</p>
+<dt id="fog05.fimapi.FIMAPI.Network.search">
+<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Network.search" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>Will search for a network element matching the dictionary in a</dt>
+<dd>single node or in all nodes</dd>
+</dl>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -655,23 +641,30 @@ Need the distributed store</p>
 </ul>
 </td>
 </tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">a dictionary with {node_uuid, network element uuid list} with matches</p>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">a dictionary</p>
 </td>
 </tr>
 </tbody>
 </table>
+<p>{node_uuid, network element uuid list} with matches</p>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="class">
-<dt id="fog05.api.API.Node">
-<em class="property">class </em><code class="descname">Node</code><span class="sig-paren">(</span><em>store=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Node" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dt id="fog05.fimapi.FIMAPI.Node">
+<em class="property">class </em><code class="descname">Node</code><span class="sig-paren">(</span><em>connector=None</em>, <em>sysid='0'</em>, <em>tenantid='0'</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Node" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>This class encapsulates the command for Node interaction</p>
 <dl class="method">
-<dt id="fog05.api.API.Node.info">
-<code class="descname">info</code><span class="sig-paren">(</span><em>node_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Node.info" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.Node.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>connector=None</em>, <em>sysid='0'</em>, <em>tenantid='0'</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Node.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.Node.info">
+<code class="descname">info</code><span class="sig-paren">(</span><em>node_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Node.info" title="Permalink to this definition">¶</a></dt>
 <dd><p>Provide all information about a specific node</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -686,8 +679,8 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Node.list">
-<code class="descname">list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Node.list" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.Node.list">
+<code class="descname">list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Node.list" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get all nodes in the current system/tenant</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -700,8 +693,8 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Node.plugins">
-<code class="descname">plugins</code><span class="sig-paren">(</span><em>node_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Node.plugins" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.Node.plugins">
+<code class="descname">plugins</code><span class="sig-paren">(</span><em>node_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Node.plugins" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the list of plugin installed on the specified node</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -709,16 +702,20 @@ Need the distributed store</p>
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>node_uuid</strong> – the uuid of the node you want info</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a list of the plugins installed in the node with detailed informations</td>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a list of the plugins installed in the node with</td>
 </tr>
 </tbody>
 </table>
+<p>detailed informations</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Node.search">
-<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Node.search" title="Permalink to this definition">¶</a></dt>
-<dd><p>Will search for a node that match information provided in the parameter</p>
+<dt id="fog05.fimapi.FIMAPI.Node.search">
+<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Node.search" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>Will search for a node that match information provided</dt>
+<dd>in the parameter</dd>
+</dl>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -731,23 +728,46 @@ Need the distributed store</p>
 </table>
 </dd></dl>
 
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.Node.status">
+<code class="descname">status</code><span class="sig-paren">(</span><em>node_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Node.status" title="Permalink to this definition">¶</a></dt>
+<dd><p>Provide all status information about a specific node,
+including network neighbors</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>node_uuid</strong> – the uuid of the node you want info</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a dictionary with all information about the node</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
 </dd></dl>
 
 <dl class="class">
-<dt id="fog05.api.API.Plugin">
-<em class="property">class </em><code class="descname">Plugin</code><span class="sig-paren">(</span><em>store=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Plugin" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dt id="fog05.fimapi.FIMAPI.Plugin">
+<em class="property">class </em><code class="descname">Plugin</code><span class="sig-paren">(</span><em>connector=None</em>, <em>sysid='0'</em>, <em>tenantid='0'</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Plugin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>This class encapsulates the commands for Plugin interaction</p>
 <dl class="method">
-<dt id="fog05.api.API.Plugin.add">
-<code class="descname">add</code><span class="sig-paren">(</span><em>manifest</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Plugin.add" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.Plugin.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>connector=None</em>, <em>sysid='0'</em>, <em>tenantid='0'</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Plugin.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.Plugin.add">
+<code class="descname">add</code><span class="sig-paren">(</span><em>manifest</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Plugin.add" title="Permalink to this definition">¶</a></dt>
 <dd><p>Add a plugin to a node or to all node in the system/tenant</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>manifest</strong> – the dictionary representing the plugin manifes</li>
+<li><strong>manifest</strong> – the dictionary representing the plugin manifest</li>
 <li><strong>node_uuid</strong> – optional the node in which add the plugin</li>
 </ul>
 </td>
@@ -760,24 +780,29 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Plugin.list">
-<code class="descname">list</code><span class="sig-paren">(</span><em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Plugin.list" title="Permalink to this definition">¶</a></dt>
-<dd><p>Same as API.Node.Plugins but can work for all node un the system, return a dictionary with key node uuid and value the plugin list</p>
-<table class="docutils field-list" frame="void" rules="none">
+<dt id="fog05.fimapi.FIMAPI.Plugin.info">
+<code class="descname">info</code><span class="sig-paren">(</span><em>node_uuid</em>, <em>pluginid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Plugin.info" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>Same as API.Node.Plugins but can work for all node un the system,</div></blockquote>
+<p>eturn a dictionary with key node uuid and value the plugin list</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>node_uuid</strong> – can be none</td>
+<tr class="field-odd field"><th class="field-name" colspan="2">param node_uuid:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body">can be none</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">dictionary {node_uuid, plugin list }</td>
+<tr class="field-even field"><th class="field-name">return:</th><td class="field-body">dictionary {node_uuid, plugin list }</td>
 </tr>
 </tbody>
 </table>
+</div></blockquote>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Plugin.remove">
-<code class="descname">remove</code><span class="sig-paren">(</span><em>plugin_uuid</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Plugin.remove" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.fimapi.FIMAPI.Plugin.remove">
+<code class="descname">remove</code><span class="sig-paren">(</span><em>plugin_uuid</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Plugin.remove" title="Permalink to this definition">¶</a></dt>
 <dd><p>Will remove a plugin for a node or all nodes</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -797,9 +822,12 @@ Need the distributed store</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="fog05.api.API.Plugin.search">
-<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.API.Plugin.search" title="Permalink to this definition">¶</a></dt>
-<dd><p>Will search for a plugin matching the dictionary in a single node or in all nodes</p>
+<dt id="fog05.fimapi.FIMAPI.Plugin.search">
+<code class="descname">search</code><span class="sig-paren">(</span><em>search_dict</em>, <em>node_uuid=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.Plugin.search" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>Will search for a plugin matching the dictionary in a</dt>
+<dd>single node or in all nodes</dd>
+</dl>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -810,7 +838,8 @@ Need the distributed store</p>
 </ul>
 </td>
 </tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">a dictionary with {node_uuid, plugin uuid list} with matches</p>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">a dictionary with {node_uuid, plugin uuid list} with
+matches</p>
 </td>
 </tr>
 </tbody>
@@ -819,54 +848,1167 @@ Need the distributed store</p>
 
 </dd></dl>
 
+<dl class="method">
+<dt id="fog05.fimapi.FIMAPI.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>locator='127.0.0.1:7887'</em>, <em>sysid='0'</em>, <em>tenantid='0'</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
 </dd></dl>
 
-<dl class="class">
-<dt id="fog05.api.FOSStore">
-<em class="property">class </em><code class="descclassname">fog05.api.</code><code class="descname">FOSStore</code><span class="sig-paren">(</span><em>aroot</em>, <em>droot</em>, <em>home</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.FOSStore" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<p>Helper class to interact with the Store</p>
 <dl class="method">
-<dt id="fog05.api.FOSStore.close">
-<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.api.FOSStore.close" title="Permalink to this definition">¶</a></dt>
-<dd><p>Close the store</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">None</td>
-</tr>
-</tbody>
-</table>
-</dd></dl>
+<dt id="fog05.fimapi.FIMAPI.close">
+<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fimapi.FIMAPI.close" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 </dd></dl>
 
 </div>
-<div class="section" id="module-fog05.fosagent">
-<span id="fog05-fosagent-module"></span><h2>fog05.fosagent module<a class="headerlink" href="#module-fog05.fosagent" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-fog05.yaks_connector">
+<span id="fog05-yaks-connector-module"></span><h2>fog05.yaks_connector module<a class="headerlink" href="#module-fog05.yaks_connector" title="Permalink to this headline">¶</a></h2>
 <dl class="class">
-<dt id="fog05.fosagent.FosAgent">
-<em class="property">class </em><code class="descclassname">fog05.fosagent.</code><code class="descname">FosAgent</code><span class="sig-paren">(</span><em>debug=True</em>, <em>plugins_path=None</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fosagent.FosAgent" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="fog05.interfaces.html#fog05.interfaces.Agent.Agent" title="fog05.interfaces.Agent.Agent"><code class="xref py py-class docutils literal"><span class="pre">fog05.interfaces.Agent.Agent</span></code></a></p>
+<dt id="fog05.yaks_connector.CLAD">
+<em class="property">class </em><code class="descclassname">fog05.yaks_connector.</code><code class="descname">CLAD</code><span class="sig-paren">(</span><em>workspace</em>, <em>prefix</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <dl class="method">
-<dt id="fog05.fosagent.FosAgent.get_network_plugin">
-<code class="descname">get_network_plugin</code><span class="sig-paren">(</span><em>cnetwork_uuid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fosagent.FosAgent.get_network_plugin" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.yaks_connector.CLAD.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>workspace</em>, <em>prefix</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.add_node_fdu">
+<code class="descname">add_node_fdu</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>fduid</em>, <em>fduinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.add_node_fdu" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
-<dt id="fog05.fosagent.FosAgent.get_os_plugin">
-<code class="descname">get_os_plugin</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fosagent.FosAgent.get_os_plugin" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.yaks_connector.CLAD.add_node_information">
+<code class="descname">add_node_information</code><span class="sig-paren">(</span><em>nodeid</em>, <em>nodeinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.add_node_information" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
-<dt id="fog05.fosagent.FosAgent.run">
-<code class="descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fosagent.FosAgent.run" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.yaks_connector.CLAD.add_node_os_info">
+<code class="descname">add_node_os_info</code><span class="sig-paren">(</span><em>nodeid</em>, <em>osinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.add_node_os_info" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
-<dt id="fog05.fosagent.FosAgent.stop">
-<code class="descname">stop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.fosagent.FosAgent.stop" title="Permalink to this definition">¶</a></dt>
+<dt id="fog05.yaks_connector.CLAD.add_node_plugin">
+<code class="descname">add_node_plugin</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>plugininfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.add_node_plugin" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.add_node_status">
+<code class="descname">add_node_status</code><span class="sig-paren">(</span><em>nodeid</em>, <em>nodestatus</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.add_node_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.add_os_eval">
+<code class="descname">add_os_eval</code><span class="sig-paren">(</span><em>nodeid</em>, <em>func_name</em>, <em>func</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.add_os_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.add_plugin_eval">
+<code class="descname">add_plugin_eval</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>func_name</em>, <em>func</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.add_plugin_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.close">
+<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.close" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.dict2args">
+<code class="descname">dict2args</code><span class="sig-paren">(</span><em>d</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.dict2args" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.exec_agent_eval">
+<code class="descname">exec_agent_eval</code><span class="sig-paren">(</span><em>nodeid</em>, <em>func_name</em>, <em>parameters</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.exec_agent_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.exec_os_eval">
+<code class="descname">exec_os_eval</code><span class="sig-paren">(</span><em>nodeid</em>, <em>func_name</em>, <em>parameters</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.exec_os_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.exec_plugin_eval">
+<code class="descname">exec_plugin_eval</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>func_name</em>, <em>parameters</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.exec_plugin_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_agent_exec_path">
+<code class="descname">get_agent_exec_path</code><span class="sig-paren">(</span><em>nodeid</em>, <em>func_name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_agent_exec_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_agent_exec_path_with_params">
+<code class="descname">get_agent_exec_path_with_params</code><span class="sig-paren">(</span><em>nodeid</em>, <em>func_name</em>, <em>params</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_agent_exec_path_with_params" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_all_plugins">
+<code class="descname">get_all_plugins</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_all_plugins" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_configuration">
+<code class="descname">get_node_configuration</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_configuration" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_configuration_path">
+<code class="descname">get_node_configuration_path</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_configuration_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_fdu">
+<code class="descname">get_node_fdu</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>fduid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_fdu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_fdu_info_path">
+<code class="descname">get_node_fdu_info_path</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>fduid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_fdu_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_info">
+<code class="descname">get_node_info</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_info_path">
+<code class="descname">get_node_info_path</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_os_exec_path">
+<code class="descname">get_node_os_exec_path</code><span class="sig-paren">(</span><em>nodeid</em>, <em>func_name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_os_exec_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_os_exec_path_with_params">
+<code class="descname">get_node_os_exec_path_with_params</code><span class="sig-paren">(</span><em>nodeid</em>, <em>func_name</em>, <em>params</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_os_exec_path_with_params" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_os_info">
+<code class="descname">get_node_os_info</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_os_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_os_info_path">
+<code class="descname">get_node_os_info_path</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_os_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_plugin_eval_path">
+<code class="descname">get_node_plugin_eval_path</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>func_name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_plugin_eval_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_plugin_eval_path_with_params">
+<code class="descname">get_node_plugin_eval_path_with_params</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>func_name</em>, <em>params</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_plugin_eval_path_with_params" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_plugin_info_path">
+<code class="descname">get_node_plugin_info_path</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_plugin_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_plugins_selector">
+<code class="descname">get_node_plugins_selector</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_plugins_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_plugins_subscriber_selector">
+<code class="descname">get_node_plugins_subscriber_selector</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_plugins_subscriber_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_runtime_fdus_selector">
+<code class="descname">get_node_runtime_fdus_selector</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_runtime_fdus_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_runtime_fdus_subscriber_selector">
+<code class="descname">get_node_runtime_fdus_subscriber_selector</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_runtime_fdus_subscriber_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_runtimes_selector">
+<code class="descname">get_node_runtimes_selector</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_runtimes_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_selector">
+<code class="descname">get_node_selector</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_status">
+<code class="descname">get_node_status</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.get_node_status_path">
+<code class="descname">get_node_status_path</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.get_node_status_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.observe_node_plugins">
+<code class="descname">observe_node_plugins</code><span class="sig-paren">(</span><em>nodeid</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.observe_node_plugins" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.observe_node_runtime_fdus">
+<code class="descname">observe_node_runtime_fdus</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.observe_node_runtime_fdus" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.observe_node_status">
+<code class="descname">observe_node_status</code><span class="sig-paren">(</span><em>nodeid</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.observe_node_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.remove_node_fdu">
+<code class="descname">remove_node_fdu</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>fduid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.remove_node_fdu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.remove_node_status">
+<code class="descname">remove_node_status</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.remove_node_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.unregister_eval">
+<code class="descname">unregister_eval</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.unregister_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.CLAD.unsubscribe">
+<code class="descname">unsubscribe</code><span class="sig-paren">(</span><em>subid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.CLAD.unsubscribe" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.yaks_connector.GAD">
+<em class="property">class </em><code class="descclassname">fog05.yaks_connector.</code><code class="descname">GAD</code><span class="sig-paren">(</span><em>workspace</em>, <em>prefix</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>workspace</em>, <em>prefix</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.add_fdu_info">
+<code class="descname">add_fdu_info</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>fduid</em>, <em>fduinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.add_fdu_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.add_flavor">
+<code class="descname">add_flavor</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>flavorid</em>, <em>flvinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.add_flavor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.add_image">
+<code class="descname">add_image</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>imageid</em>, <em>imginfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.add_image" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.add_network">
+<code class="descname">add_network</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>netid</em>, <em>netinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.add_network" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.add_network_port">
+<code class="descname">add_network_port</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>portid</em>, <em>portinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.add_network_port" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.add_node_configuration">
+<code class="descname">add_node_configuration</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>nodeconf</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.add_node_configuration" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.add_node_fdu">
+<code class="descname">add_node_fdu</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>fduid</em>, <em>fduinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.add_node_fdu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.add_node_flavor">
+<code class="descname">add_node_flavor</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>flavorid</em>, <em>flvinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.add_node_flavor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.add_node_image">
+<code class="descname">add_node_image</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>imageid</em>, <em>imginfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.add_node_image" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.add_node_info">
+<code class="descname">add_node_info</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>nodeinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.add_node_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.add_node_plugin">
+<code class="descname">add_node_plugin</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>pluginid</em>, <em>plugininfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.add_node_plugin" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.add_node_status">
+<code class="descname">add_node_status</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>nodestatus</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.add_node_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.add_plugin_eval">
+<code class="descname">add_plugin_eval</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>pluginid</em>, <em>func_name</em>, <em>func</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.add_plugin_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.close">
+<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.close" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.extract_fduid_from_path">
+<code class="descname">extract_fduid_from_path</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.extract_fduid_from_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.extract_node_fduid_from_path">
+<code class="descname">extract_node_fduid_from_path</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.extract_node_fduid_from_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.extract_nodeid_from_path">
+<code class="descname">extract_nodeid_from_path</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.extract_nodeid_from_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.extract_plugin_from_path">
+<code class="descname">extract_plugin_from_path</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.extract_plugin_from_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.extract_tenantid_from_path">
+<code class="descname">extract_tenantid_from_path</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.extract_tenantid_from_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.extract_userid_from_path">
+<code class="descname">extract_userid_from_path</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.extract_userid_from_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_entities_selector">
+<code class="descname">get_all_entities_selector</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_entities_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_fdu_selector">
+<code class="descname">get_all_fdu_selector</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_fdu_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_fdus">
+<code class="descname">get_all_fdus</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_fdus" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_flavor_selector">
+<code class="descname">get_all_flavor_selector</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_flavor_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_flavors">
+<code class="descname">get_all_flavors</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_flavors" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_image_selector">
+<code class="descname">get_all_image_selector</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_image_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_images">
+<code class="descname">get_all_images</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_images" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_network_ports">
+<code class="descname">get_all_network_ports</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_network_ports" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_networks">
+<code class="descname">get_all_networks</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_networks" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_networks_selector">
+<code class="descname">get_all_networks_selector</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_networks_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_node_flavor_selector">
+<code class="descname">get_all_node_flavor_selector</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_node_flavor_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_node_flavors">
+<code class="descname">get_all_node_flavors</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_node_flavors" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_node_image_selector">
+<code class="descname">get_all_node_image_selector</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_node_image_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_node_images">
+<code class="descname">get_all_node_images</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_node_images" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_nodes">
+<code class="descname">get_all_nodes</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_nodes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_nodes_selector">
+<code class="descname">get_all_nodes_selector</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_nodes_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_plugins_ids">
+<code class="descname">get_all_plugins_ids</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_plugins_ids" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_ports_selector">
+<code class="descname">get_all_ports_selector</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_ports_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_tenants_ids">
+<code class="descname">get_all_tenants_ids</code><span class="sig-paren">(</span><em>sysid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_tenants_ids" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_tenants_selector">
+<code class="descname">get_all_tenants_selector</code><span class="sig-paren">(</span><em>sysid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_tenants_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_users_ids">
+<code class="descname">get_all_users_ids</code><span class="sig-paren">(</span><em>sysid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_users_ids" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_all_users_selector">
+<code class="descname">get_all_users_selector</code><span class="sig-paren">(</span><em>sysid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_all_users_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_entity_all_instances_selector">
+<code class="descname">get_entity_all_instances_selector</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>entityid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_entity_all_instances_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_entity_info_path">
+<code class="descname">get_entity_info_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>entityid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_entity_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_entity_instance_info_path">
+<code class="descname">get_entity_instance_info_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>entityid</em>, <em>instanceid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_entity_instance_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_fdu_info">
+<code class="descname">get_fdu_info</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>fduid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_fdu_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_fdu_info_path">
+<code class="descname">get_fdu_info_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>fduid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_fdu_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_flavor">
+<code class="descname">get_flavor</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>flavorid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_flavor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_flavor_info_path">
+<code class="descname">get_flavor_info_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>flavorid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_flavor_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_image">
+<code class="descname">get_image</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>imageid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_image" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_image_info_path">
+<code class="descname">get_image_info_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>imageid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_image_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_network">
+<code class="descname">get_network</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>netid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_network" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_network_info_path">
+<code class="descname">get_network_info_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>networkid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_network_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_network_port">
+<code class="descname">get_network_port</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>portid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_network_port" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_network_port_info_path">
+<code class="descname">get_network_port_info_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>portid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_network_port_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_configuration_path">
+<code class="descname">get_node_configuration_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_configuration_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_fdu">
+<code class="descname">get_node_fdu</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>fduid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_fdu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_fdu_info_path">
+<code class="descname">get_node_fdu_info_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>fduid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_fdu_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_fdu_selector">
+<code class="descname">get_node_fdu_selector</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_fdu_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_fdus">
+<code class="descname">get_node_fdus</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_fdus" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_flavor">
+<code class="descname">get_node_flavor</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>flavorid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_flavor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_flavor_info_path">
+<code class="descname">get_node_flavor_info_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>flavorid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_flavor_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_image">
+<code class="descname">get_node_image</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>imageid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_image" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_image_info_path">
+<code class="descname">get_node_image_info_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>imageid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_image_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_info">
+<code class="descname">get_node_info</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_info_path">
+<code class="descname">get_node_info_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_plugin_eval_path">
+<code class="descname">get_node_plugin_eval_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>pluginid</em>, <em>func_name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_plugin_eval_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_plugin_info_path">
+<code class="descname">get_node_plugin_info_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>pluginid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_plugin_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_plugins_selector">
+<code class="descname">get_node_plugins_selector</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_plugins_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_plugins_subscriber_selector">
+<code class="descname">get_node_plugins_subscriber_selector</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_plugins_subscriber_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_status">
+<code class="descname">get_node_status</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_node_status_path">
+<code class="descname">get_node_status_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_node_status_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_plugin_info">
+<code class="descname">get_plugin_info</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>pluginid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_plugin_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_sys_config">
+<code class="descname">get_sys_config</code><span class="sig-paren">(</span><em>sysid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_sys_config" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_sys_configuration_path">
+<code class="descname">get_sys_configuration_path</code><span class="sig-paren">(</span><em>sysid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_sys_configuration_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_sys_info">
+<code class="descname">get_sys_info</code><span class="sig-paren">(</span><em>sysid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_sys_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_sys_info_path">
+<code class="descname">get_sys_info_path</code><span class="sig-paren">(</span><em>sysid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_sys_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_tenant_configuration_path">
+<code class="descname">get_tenant_configuration_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_tenant_configuration_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_tenant_info_path">
+<code class="descname">get_tenant_info_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_tenant_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.get_user_info_path">
+<code class="descname">get_user_info_path</code><span class="sig-paren">(</span><em>sysid</em>, <em>userid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.get_user_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.observe_fdu">
+<code class="descname">observe_fdu</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>fduid</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.observe_fdu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.observe_fdus">
+<code class="descname">observe_fdus</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.observe_fdus" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.observe_node_fdu">
+<code class="descname">observe_node_fdu</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>fduid</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.observe_node_fdu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.observe_node_plugins">
+<code class="descname">observe_node_plugins</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.observe_node_plugins" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.observe_node_status">
+<code class="descname">observe_node_status</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.observe_node_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.remove_fdu_info">
+<code class="descname">remove_fdu_info</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>fduid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.remove_fdu_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.remove_flavor">
+<code class="descname">remove_flavor</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>flavorid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.remove_flavor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.remove_image">
+<code class="descname">remove_image</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenatid</em>, <em>imageid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.remove_image" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.remove_network">
+<code class="descname">remove_network</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>netid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.remove_network" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.remove_network_port">
+<code class="descname">remove_network_port</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>portid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.remove_network_port" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.remove_node_fdu">
+<code class="descname">remove_node_fdu</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em>, <em>fduid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.remove_node_fdu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.remove_node_flavor">
+<code class="descname">remove_node_flavor</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenatid</em>, <em>nodeid</em>, <em>flavorid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.remove_node_flavor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.remove_node_image">
+<code class="descname">remove_node_image</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenatid</em>, <em>nodeid</em>, <em>imageid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.remove_node_image" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.remove_node_status">
+<code class="descname">remove_node_status</code><span class="sig-paren">(</span><em>sysid</em>, <em>tenantid</em>, <em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.remove_node_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.unregister_eval">
+<code class="descname">unregister_eval</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.unregister_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.GAD.unsubscribe">
+<code class="descname">unsubscribe</code><span class="sig-paren">(</span><em>subid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.GAD.unsubscribe" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.yaks_connector.Global">
+<em class="property">class </em><code class="descclassname">fog05.yaks_connector.</code><code class="descname">Global</code><span class="sig-paren">(</span><em>workspace</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.Global" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="fog05.yaks_connector.Global.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>workspace</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.Global.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.Global.close">
+<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.Global.close" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.yaks_connector.LAD">
+<em class="property">class </em><code class="descclassname">fog05.yaks_connector.</code><code class="descname">LAD</code><span class="sig-paren">(</span><em>workspace</em>, <em>prefix</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>workspace</em>, <em>prefix</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.add_node_fdu">
+<code class="descname">add_node_fdu</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>fduid</em>, <em>fduinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.add_node_fdu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.add_node_flavor">
+<code class="descname">add_node_flavor</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>flvid</em>, <em>flvinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.add_node_flavor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.add_node_image">
+<code class="descname">add_node_image</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>imgid</em>, <em>imginfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.add_node_image" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.add_node_information">
+<code class="descname">add_node_information</code><span class="sig-paren">(</span><em>nodeid</em>, <em>nodeinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.add_node_information" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.add_node_network">
+<code class="descname">add_node_network</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>netid</em>, <em>netinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.add_node_network" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.add_node_os_info">
+<code class="descname">add_node_os_info</code><span class="sig-paren">(</span><em>nodeid</em>, <em>osinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.add_node_os_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.add_node_plugin">
+<code class="descname">add_node_plugin</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>plugininfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.add_node_plugin" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.add_node_port">
+<code class="descname">add_node_port</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>portid</em>, <em>portinfo</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.add_node_port" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.add_node_status">
+<code class="descname">add_node_status</code><span class="sig-paren">(</span><em>nodeid</em>, <em>nodestatus</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.add_node_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.add_nw_eval">
+<code class="descname">add_nw_eval</code><span class="sig-paren">(</span><em>nodeid</em>, <em>nm_uuid</em>, <em>func_name</em>, <em>func</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.add_nw_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.add_os_eval">
+<code class="descname">add_os_eval</code><span class="sig-paren">(</span><em>nodeid</em>, <em>func_name</em>, <em>func</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.add_os_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.add_plugin_eval">
+<code class="descname">add_plugin_eval</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>func_name</em>, <em>func</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.add_plugin_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.close">
+<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.close" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.dict2args">
+<code class="descname">dict2args</code><span class="sig-paren">(</span><em>d</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.dict2args" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.exec_agent_eval">
+<code class="descname">exec_agent_eval</code><span class="sig-paren">(</span><em>nodeid</em>, <em>func_name</em>, <em>parameters</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.exec_agent_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.exec_nw_eval">
+<code class="descname">exec_nw_eval</code><span class="sig-paren">(</span><em>nodeid</em>, <em>nm_uuid</em>, <em>func_name</em>, <em>parameters</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.exec_nw_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.exec_os_eval">
+<code class="descname">exec_os_eval</code><span class="sig-paren">(</span><em>nodeid</em>, <em>func_name</em>, <em>parameters</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.exec_os_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.exec_plugin_eval">
+<code class="descname">exec_plugin_eval</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>func_name</em>, <em>parameters</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.exec_plugin_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.find_node_network">
+<code class="descname">find_node_network</code><span class="sig-paren">(</span><em>nodeid</em>, <em>netid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.find_node_network" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_agent_exec_path">
+<code class="descname">get_agent_exec_path</code><span class="sig-paren">(</span><em>nodeid</em>, <em>func_name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_agent_exec_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_agent_exec_path_with_params">
+<code class="descname">get_agent_exec_path_with_params</code><span class="sig-paren">(</span><em>nodeid</em>, <em>func_name</em>, <em>params</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_agent_exec_path_with_params" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_all_plugins">
+<code class="descname">get_all_plugins</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_all_plugins" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_configuration">
+<code class="descname">get_node_configuration</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_configuration" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_configuration_path">
+<code class="descname">get_node_configuration_path</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_configuration_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_fdu">
+<code class="descname">get_node_fdu</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>fduid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_fdu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_fdu_atomic_entity_info">
+<code class="descname">get_node_fdu_atomic_entity_info</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>fduid</em>, <em>atomicid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_fdu_atomic_entity_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_fdu_info_path">
+<code class="descname">get_node_fdu_info_path</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>fduid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_fdu_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_flavor">
+<code class="descname">get_node_flavor</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>flvid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_flavor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_flavor_info_path">
+<code class="descname">get_node_flavor_info_path</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>flvid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_flavor_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_image">
+<code class="descname">get_node_image</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>imgid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_image" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_image_info_path">
+<code class="descname">get_node_image_info_path</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>imgid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_image_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_info">
+<code class="descname">get_node_info</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_info_path">
+<code class="descname">get_node_info_path</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_netwoks_find_selector">
+<code class="descname">get_node_netwoks_find_selector</code><span class="sig-paren">(</span><em>nodeid</em>, <em>netid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_netwoks_find_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_netwoks_selector">
+<code class="descname">get_node_netwoks_selector</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_netwoks_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_network">
+<code class="descname">get_node_network</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>netid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_network" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_network_info_path">
+<code class="descname">get_node_network_info_path</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>networkid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_network_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_network_managers_selector">
+<code class="descname">get_node_network_managers_selector</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_network_managers_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_network_port_info_path">
+<code class="descname">get_node_network_port_info_path</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>portid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_network_port_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_networks_port_selector">
+<code class="descname">get_node_networks_port_selector</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_networks_port_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_nw_exec_path">
+<code class="descname">get_node_nw_exec_path</code><span class="sig-paren">(</span><em>nodeid</em>, <em>net_manager_uuid</em>, <em>func_name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_nw_exec_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_nw_exec_path_with_params">
+<code class="descname">get_node_nw_exec_path_with_params</code><span class="sig-paren">(</span><em>nodeid</em>, <em>net_manager_uuid</em>, <em>func_name</em>, <em>params</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_nw_exec_path_with_params" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_os_exec_path">
+<code class="descname">get_node_os_exec_path</code><span class="sig-paren">(</span><em>nodeid</em>, <em>func_name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_os_exec_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_os_exec_path_with_params">
+<code class="descname">get_node_os_exec_path_with_params</code><span class="sig-paren">(</span><em>nodeid</em>, <em>func_name</em>, <em>params</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_os_exec_path_with_params" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_os_info">
+<code class="descname">get_node_os_info</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_os_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_os_info_path">
+<code class="descname">get_node_os_info_path</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_os_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_plugin_eval_path">
+<code class="descname">get_node_plugin_eval_path</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>func_name</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_plugin_eval_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_plugin_eval_path_with_params">
+<code class="descname">get_node_plugin_eval_path_with_params</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>func_name</em>, <em>params</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_plugin_eval_path_with_params" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_plugin_info_path">
+<code class="descname">get_node_plugin_info_path</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_plugin_info_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_plugins_selector">
+<code class="descname">get_node_plugins_selector</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_plugins_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_plugins_subscriber_selector">
+<code class="descname">get_node_plugins_subscriber_selector</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_plugins_subscriber_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_port">
+<code class="descname">get_node_port</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>portid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_port" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_runtime_fdus_selector">
+<code class="descname">get_node_runtime_fdus_selector</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_runtime_fdus_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_runtime_fdus_subscriber_selector">
+<code class="descname">get_node_runtime_fdus_subscriber_selector</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_runtime_fdus_subscriber_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_runtimes_selector">
+<code class="descname">get_node_runtimes_selector</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_runtimes_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_status">
+<code class="descname">get_node_status</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.get_node_status_path">
+<code class="descname">get_node_status_path</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.get_node_status_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.observe_node_networks">
+<code class="descname">observe_node_networks</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.observe_node_networks" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.observe_node_plugins">
+<code class="descname">observe_node_plugins</code><span class="sig-paren">(</span><em>nodeid</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.observe_node_plugins" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.observe_node_ports">
+<code class="descname">observe_node_ports</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.observe_node_ports" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.observe_node_runtime_fdus">
+<code class="descname">observe_node_runtime_fdus</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.observe_node_runtime_fdus" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.observe_node_status">
+<code class="descname">observe_node_status</code><span class="sig-paren">(</span><em>nodeid</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.observe_node_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.remove_node_fdu">
+<code class="descname">remove_node_fdu</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>fduid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.remove_node_fdu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.remove_node_flavor">
+<code class="descname">remove_node_flavor</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>flvid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.remove_node_flavor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.remove_node_image">
+<code class="descname">remove_node_image</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>imgid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.remove_node_image" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.remove_node_network">
+<code class="descname">remove_node_network</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>netid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.remove_node_network" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.remove_node_port">
+<code class="descname">remove_node_port</code><span class="sig-paren">(</span><em>nodeid</em>, <em>pluginid</em>, <em>portid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.remove_node_port" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.remove_node_status">
+<code class="descname">remove_node_status</code><span class="sig-paren">(</span><em>nodeid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.remove_node_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.unregister_eval">
+<code class="descname">unregister_eval</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.unregister_eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.LAD.unsubscribe">
+<code class="descname">unsubscribe</code><span class="sig-paren">(</span><em>subid</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.LAD.unsubscribe" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.yaks_connector.Local">
+<em class="property">class </em><code class="descclassname">fog05.yaks_connector.</code><code class="descname">Local</code><span class="sig-paren">(</span><em>workspace</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.Local" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="fog05.yaks_connector.Local.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>workspace</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.Local.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.Local.close">
+<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.Local.close" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.yaks_connector.Yaks_Connector">
+<em class="property">class </em><code class="descclassname">fog05.yaks_connector.</code><code class="descname">Yaks_Connector</code><span class="sig-paren">(</span><em>locator</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.Yaks_Connector" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="fog05.yaks_connector.Yaks_Connector.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>locator</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.Yaks_Connector.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.Yaks_Connector.close">
+<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.Yaks_Connector.close" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="fog05.yaks_connector.Yaks_Constraint_Connector">
+<em class="property">class </em><code class="descclassname">fog05.yaks_connector.</code><code class="descname">Yaks_Constraint_Connector</code><span class="sig-paren">(</span><em>locator</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.Yaks_Constraint_Connector" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="fog05.yaks_connector.Yaks_Constraint_Connector.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>locator</em><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.Yaks_Constraint_Connector.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="fog05.yaks_connector.Yaks_Constraint_Connector.close">
+<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fog05.yaks_connector.Yaks_Constraint_Connector.close" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -879,6 +2021,7 @@ Need the distributed store</p>
 
 
           </div>
+          
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
@@ -891,12 +2034,14 @@ Need the distributed store</p>
 </div>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
+    <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <div><input type="text" name="q" /></div>
-      <div><input type="submit" value="Go" /></div>
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
+    </div>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
@@ -907,8 +2052,8 @@ Need the distributed store</p>
       &copy;2018, ADLINK Technology.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
       <a href="_sources/fog05.rst.txt"
