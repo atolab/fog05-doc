@@ -1,4 +1,4 @@
-# Example : LXD container descriptor
+# Deploying an LXD container descriptor with fog05
 
 The following code presents a basic example of an LXD container descriptor that can be deployed using Eclipse fog05
 
@@ -39,7 +39,8 @@ The following code presents a basic example of an LXD container descriptor that 
     "depends_on": []
 }
 ```
-More examples can be found [here](./https://github.com/eclipse-fog05/examples).
+
+More examples can be found [here](https://github.com/eclipse-fog05/examples).
 
 
 

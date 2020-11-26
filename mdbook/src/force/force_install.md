@@ -2,7 +2,7 @@
 
 Before getting started with Eclipse fog05 orchestation we need to install and start it
 
-We have three possibilities for installing Eclipse fog05
+We have three possibilities for installing Eclipse fog05 FOrcE:
 
 - Install FOrcE from source
 - Install FOrcE from debian packages
@@ -11,7 +11,7 @@ We have three possibilities for installing Eclipse fog05
 
 ## Install FOrcE from source
 
-We can now clone the Eclipse fog05 repository and build the orchestation engine
+We can clone the Eclipse fog05 repository and build the orchestation engine, as follows:
 
 ```bash
 git clone https://github.com/eclipse-fog05/fog05 -b 0.2.x
@@ -23,7 +23,7 @@ sudo install -m 0755 /usr/local/bin
 
 ## Install FOrcE from debian packages
 
-For each release .deb files are generated for Ubuntu 18.04 LTS, and works also with newer versions of Ubuntu. Those files can be found in the release page on GitHub, and are available for `x86_64` and `aarch64`.
+For each release `.deb` files are generated for Ubuntu 18.04 LTS, and works also with newer versions of Ubuntu. Those files can be found in the [release](https://github.com/eclipse-fog05/fog05/releases) page on GitHub, and are available for `x86_64` and `aarch64` architectures.
 
 To install the force we can simply run:
 
@@ -37,11 +37,15 @@ It will create the folder `/etc/fos` in which we can found the configuration fil
 
 ## Install FOrcE using a docker image
 
-If you have docker and docker-compose enable in you machine you can download the docker-compose.yaml
+If you have docker and docker-compose enable in you machine you can download the `docker-compose.yaml` file, as follows:
+
+```bash
+wget https://raw.githubusercontent.com/eclipse-fog05/fog05/0.2.x/src/force/docker-compose.yaml
+
+```
 
 And deploy it using:
 
 ```bash
-wget https://raw.githubusercontent.com/eclipse-fog05/fog05/0.2.x/src/force/docker-compose.yaml
 docker stack deploy -c docker-compose.yaml force
 ```

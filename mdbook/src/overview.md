@@ -10,3 +10,6 @@ More specifically, Eclipse fog05 is a Fog Infrastructure-as-a-Service (IaaS) sol
 - The Fog Infrastructure Manager (FIM)
 
 These components provides the abstractions needed to deploy your applications in the Fog and Edge environment.
+
+<!-- ![Fog Conceptual Model](../figures/fog05_concept.png) -->
+<img src="../figures/fog05_concept.png" width="400" height="400" />
