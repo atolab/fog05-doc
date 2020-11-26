@@ -8,7 +8,7 @@
 - [Getting Started](./getting_started/getting_started.md)
   - [Install fog05 from Source](./getting_started/install_from_source.md)
   - [Install fog05 from Debian Packages](./getting_started/install_from_deb.md)
-  - [Stating fog05](./getting_started/starting.md)
+  - [Starting fog05](./getting_started/starting.md)
 - [Eclipse fog05 FIM](./fim/fim.md)
   - [Hello World!](./fim/helloworld.md)
   - [Deploying an LXD container](./fim/basic_example.md)
