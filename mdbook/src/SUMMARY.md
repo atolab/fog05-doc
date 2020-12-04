@@ -19,3 +19,8 @@
   - [Installing fosctl](./fosctl/fosctl_install.md)
   - [Usage of fosctl](./fosctl/fosctl_usage.md)
 - [Eclipse fog05 & ETSI OSM Orchestrator](./etsi_osm/etsi_osm.md)
+- [Eclipse fog05 & Kubernetes](./k8s/index.md)
+  - [Connect FOrcE with K8s cluster cloud](./k8s/connect_cloud.md)
+  - [Create a fog05 descriptor that embeds the K8s descriptor](./k8s/descriptor_ek8s.md)
+  - [Instantiate the embedded k8s descriptor via FOrCE](./k8s/instantiate_ek8s.md)
+  - [Check the application is deployed in the k8s cluster](./k8s/monitor.md)
